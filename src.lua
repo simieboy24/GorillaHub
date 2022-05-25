@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local GorillaHub = Instance.new("ScreenGui")
 local Base = Instance.new("Frame")
 local TopBar = Instance.new("Frame")
