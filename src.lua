@@ -1,3 +1,8 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local GorillaHub = Instance.new("ScreenGui")
 local Base = Instance.new("Frame")
 local TopBar = Instance.new("Frame")
@@ -108,7 +113,7 @@ local MinButton = Instance.new("TextButton")
 --Properties:
 
 GorillaHub.Name = "Gorilla Hub"
-GorillaHub.Parent = game.CoreGui
+GorillaHub.Parent = game.Workspace
 GorillaHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Base.Name = "Base"
@@ -234,7 +239,6 @@ AdminScripts.BackgroundTransparency = 1.000
 AdminScripts.BorderSizePixel = 0
 AdminScripts.Position = UDim2.new(0, 0, 0.1037037, 0)
 AdminScripts.Size = UDim2.new(0, 489, 0, 225)
-AdminScripts.Visible = false
 
 InfiniteYield.Name = "InfiniteYield"
 InfiniteYield.Parent = AdminScripts
@@ -413,6 +417,7 @@ LocalScripts.BackgroundTransparency = 1.000
 LocalScripts.BorderSizePixel = 0
 LocalScripts.Position = UDim2.new(0, 0, 0.1037037, 0)
 LocalScripts.Size = UDim2.new(0, 489, 0, 225)
+LocalScripts.Visible = false
 
 InfJump.Name = "InfJump"
 InfJump.Parent = LocalScripts
@@ -823,7 +828,7 @@ MinButton.TextSize = 14.000
 
 -- Scripts:
 
-local function NEZHX_fake_script() -- Exit.LocalScript 
+local function AYNSBY_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	local Hub = script.Parent.Parent.Parent.Parent
@@ -833,8 +838,8 @@ local function NEZHX_fake_script() -- Exit.LocalScript
 	end)
 	
 end
-coroutine.wrap(NEZHX_fake_script)()
-local function PMNIF_fake_script() -- Min.LocalScript 
+coroutine.wrap(AYNSBY_fake_script)()
+local function APGTHXY_fake_script() -- Min.LocalScript 
 	local script = Instance.new('LocalScript', Min)
 
 	local Hub = script.Parent.Parent.Parent
@@ -847,8 +852,8 @@ local function PMNIF_fake_script() -- Min.LocalScript
 	end)
 	
 end
-coroutine.wrap(PMNIF_fake_script)()
-local function EBRKZ_fake_script() -- Base.Dragify 
+coroutine.wrap(APGTHXY_fake_script)()
+local function WGECX_fake_script() -- Base.Dragify 
 	local script = Instance.new('LocalScript', Base)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -891,8 +896,8 @@ local function EBRKZ_fake_script() -- Base.Dragify
 		end
 	end)
 end
-coroutine.wrap(EBRKZ_fake_script)()
-local function DCBA_fake_script() -- Page1.LocalScript 
+coroutine.wrap(WGECX_fake_script)()
+local function IHFWXOZ_fake_script() -- Page1.LocalScript 
 	local script = Instance.new('LocalScript', Page1)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -909,8 +914,8 @@ local function DCBA_fake_script() -- Page1.LocalScript
 		AllTabs[4].Visible = false
 	end)
 end
-coroutine.wrap(DCBA_fake_script)()
-local function RZYCO_fake_script() -- Page2.LocalScript 
+coroutine.wrap(IHFWXOZ_fake_script)()
+local function GGNQVI_fake_script() -- Page2.LocalScript 
 	local script = Instance.new('LocalScript', Page2)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -927,8 +932,8 @@ local function RZYCO_fake_script() -- Page2.LocalScript
 		AllTabs[4].Visible = false
 	end)
 end
-coroutine.wrap(RZYCO_fake_script)()
-local function GEUVUOB_fake_script() -- Page4.LocalScript 
+coroutine.wrap(GGNQVI_fake_script)()
+local function FCEHOE_fake_script() -- Page4.LocalScript 
 	local script = Instance.new('LocalScript', Page4)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -945,8 +950,8 @@ local function GEUVUOB_fake_script() -- Page4.LocalScript
 		AllTabs[4].Visible = false
 	end)
 end
-coroutine.wrap(GEUVUOB_fake_script)()
-local function AYFL_fake_script() -- Page5.LocalScript 
+coroutine.wrap(FCEHOE_fake_script)()
+local function LFGG_fake_script() -- Page5.LocalScript 
 	local script = Instance.new('LocalScript', Page5)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -963,8 +968,8 @@ local function AYFL_fake_script() -- Page5.LocalScript
 		AllTabs[4].Visible = true
 	end)
 end
-coroutine.wrap(AYFL_fake_script)()
-local function MLBOE_fake_script() -- MinButton.LocalScript 
+coroutine.wrap(LFGG_fake_script)()
+local function VYTM_fake_script() -- MinButton.LocalScript 
 	local script = Instance.new('LocalScript', MinButton)
 
 	local Hub = script.Parent.Parent.Base
@@ -976,4 +981,4 @@ local function MLBOE_fake_script() -- MinButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(MLBOE_fake_script)()
+coroutine.wrap(VYTM_fake_script)()
