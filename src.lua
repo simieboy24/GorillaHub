@@ -113,7 +113,7 @@ local MinButton = Instance.new("TextButton")
 --Properties:
 
 GorillaHub.Name = "Gorilla Hub"
-GorillaHub.Parent = game.Workspace
+GorillaHub.Parent = game.CoreGui
 GorillaHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Base.Name = "Base"
