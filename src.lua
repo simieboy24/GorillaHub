@@ -40,18 +40,12 @@ local Reviz_2 = Instance.new("ImageLabel")
 local UICorner_7 = Instance.new("UICorner")
 local UIGradient_5 = Instance.new("UIGradient")
 local TextLabel_4 = Instance.new("TextLabel")
-local Text = Instance.new("Frame")
-local UIGridLayout_2 = Instance.new("UIGridLayout")
-local Page1 = Instance.new("TextButton")
-local Page2 = Instance.new("TextButton")
-local Page4 = Instance.new("TextButton")
-local Page5 = Instance.new("TextButton")
 local LocalScripts = Instance.new("Frame")
 local InfJump = Instance.new("ImageLabel")
 local UICorner_8 = Instance.new("UICorner")
 local UIGradient_6 = Instance.new("UIGradient")
 local TextLabel_5 = Instance.new("TextLabel")
-local UIGridLayout_3 = Instance.new("UIGridLayout")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
 local FECHECK = Instance.new("ImageLabel")
 local UICorner_9 = Instance.new("UICorner")
 local UIGradient_7 = Instance.new("UIGradient")
@@ -81,7 +75,7 @@ local Blissfull = Instance.new("ImageLabel")
 local UICorner_15 = Instance.new("UICorner")
 local UIGradient_13 = Instance.new("UIGradient")
 local TextLabel_12 = Instance.new("TextLabel")
-local UIGridLayout_4 = Instance.new("UIGridLayout")
+local UIGridLayout_3 = Instance.new("UIGridLayout")
 local Unnamed = Instance.new("ImageLabel")
 local UICorner_16 = Instance.new("UICorner")
 local UIGradient_14 = Instance.new("UIGradient")
@@ -95,7 +89,7 @@ local VgHub = Instance.new("ImageLabel")
 local UICorner_18 = Instance.new("UICorner")
 local UIGradient_16 = Instance.new("UIGradient")
 local TextLabel_15 = Instance.new("TextLabel")
-local UIGridLayout_5 = Instance.new("UIGridLayout")
+local UIGridLayout_4 = Instance.new("UIGridLayout")
 local DarkHub = Instance.new("ImageLabel")
 local UICorner_19 = Instance.new("UICorner")
 local UIGradient_17 = Instance.new("UIGradient")
@@ -108,6 +102,23 @@ local Shlex = Instance.new("ImageLabel")
 local UICorner_21 = Instance.new("UICorner")
 local UIGradient_19 = Instance.new("UIGradient")
 local TextLabel_18 = Instance.new("TextLabel")
+local VynixusBABFT = Instance.new("ImageLabel")
+local UICorner_22 = Instance.new("UICorner")
+local UIGradient_20 = Instance.new("UIGradient")
+local TextLabel_19 = Instance.new("TextLabel")
+local Credits = Instance.new("Frame")
+local SD = Instance.new("TextLabel")
+local IDS = Instance.new("TextLabel")
+local Simpie = Instance.new("TextLabel")
+local BlijeKevinKevinMetBaard = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Text = Instance.new("Frame")
+local UIGridLayout_5 = Instance.new("UIGridLayout")
+local Page1 = Instance.new("TextButton")
+local Page2 = Instance.new("TextButton")
+local Page4 = Instance.new("TextButton")
+local Page5 = Instance.new("TextButton")
+local Page5_2 = Instance.new("TextButton")
 local MinButton = Instance.new("TextButton")
 
 --Properties:
@@ -239,6 +250,7 @@ AdminScripts.BackgroundTransparency = 1.000
 AdminScripts.BorderSizePixel = 0
 AdminScripts.Position = UDim2.new(0, 0, 0.1037037, 0)
 AdminScripts.Size = UDim2.new(0, 489, 0, 225)
+AdminScripts.Visible = false
 
 InfiniteYield.Name = "InfiniteYield"
 InfiniteYield.Parent = AdminScripts
@@ -349,67 +361,6 @@ TextLabel_4.Text = "Fates Admin"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.TextSize = 12.000
 
-Text.Name = "Text"
-Text.Parent = Container
-Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Text.BackgroundTransparency = 1.000
-Text.BorderSizePixel = 0
-Text.Size = UDim2.new(0, 490, 0, 20)
-
-UIGridLayout_2.Parent = Text
-UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_2.CellSize = UDim2.new(0, 90, 0, 20)
-
-Page1.Name = "Page1"
-Page1.Parent = Text
-Page1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Page1.BackgroundTransparency = 1.000
-Page1.BorderSizePixel = 0
-Page1.Position = UDim2.new(0.197959185, 0, 0, 0)
-Page1.Size = UDim2.new(0, 90, 0, 20)
-Page1.Font = Enum.Font.SourceSans
-Page1.Text = "Admin Scripts"
-Page1.TextColor3 = Color3.fromRGB(255, 255, 255)
-Page1.TextSize = 14.000
-Page1.TextWrapped = true
-
-Page2.Name = "Page2"
-Page2.Parent = Text
-Page2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Page2.BackgroundTransparency = 1.000
-Page2.BorderSizePixel = 0
-Page2.Size = UDim2.new(0, 90, 0, 20)
-Page2.Font = Enum.Font.SourceSans
-Page2.Text = "Local Scripts"
-Page2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Page2.TextSize = 14.000
-Page2.TextWrapped = true
-
-Page4.Name = "Page4"
-Page4.Parent = Text
-Page4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Page4.BackgroundTransparency = 1.000
-Page4.BorderSizePixel = 0
-Page4.Size = UDim2.new(0, 90, 0, 20)
-Page4.Font = Enum.Font.SourceSans
-Page4.Text = "Shooters Scripts"
-Page4.TextColor3 = Color3.fromRGB(255, 255, 255)
-Page4.TextSize = 14.000
-Page4.TextWrapped = true
-
-Page5.Name = "Page5"
-Page5.Parent = Text
-Page5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Page5.BackgroundTransparency = 1.000
-Page5.BorderSizePixel = 0
-Page5.Position = UDim2.new(-0.497959167, 0, 15.6000004, 0)
-Page5.Size = UDim2.new(0, 90, 0, 20)
-Page5.Font = Enum.Font.SourceSans
-Page5.Text = "Misc Scripts"
-Page5.TextColor3 = Color3.fromRGB(255, 255, 255)
-Page5.TextSize = 14.000
-Page5.TextWrapped = true
-
 LocalScripts.Name = "Local Scripts"
 LocalScripts.Parent = Container
 LocalScripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -445,10 +396,10 @@ TextLabel_5.Text = "Infinite Jump"
 TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.TextSize = 12.000
 
-UIGridLayout_3.Parent = LocalScripts
-UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_3.CellPadding = UDim2.new(0, 8, 0, 30)
-UIGridLayout_3.CellSize = UDim2.new(0, 90, 0, 90)
+UIGridLayout_2.Parent = LocalScripts
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellPadding = UDim2.new(0, 8, 0, 30)
+UIGridLayout_2.CellSize = UDim2.new(0, 90, 0, 90)
 
 FECHECK.Name = "FECHECK"
 FECHECK.Parent = LocalScripts
@@ -613,7 +564,6 @@ ShooterScripts.BackgroundTransparency = 1.000
 ShooterScripts.BorderSizePixel = 0
 ShooterScripts.Position = UDim2.new(0, 0, 0.1037037, 0)
 ShooterScripts.Size = UDim2.new(0, 489, 0, 225)
-ShooterScripts.Visible = false
 
 Blissfull.Name = "Blissfull"
 Blissfull.Parent = ShooterScripts
@@ -641,10 +591,10 @@ TextLabel_12.Text = "Blissfull's Aimbot"
 TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.TextSize = 12.000
 
-UIGridLayout_4.Parent = ShooterScripts
-UIGridLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_4.CellPadding = UDim2.new(0, 8, 0, 30)
-UIGridLayout_4.CellSize = UDim2.new(0, 90, 0, 90)
+UIGridLayout_3.Parent = ShooterScripts
+UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_3.CellPadding = UDim2.new(0, 8, 0, 30)
+UIGridLayout_3.CellSize = UDim2.new(0, 90, 0, 90)
 
 Unnamed.Name = "Unnamed"
 Unnamed.Parent = ShooterScripts
@@ -677,7 +627,7 @@ Parvus.Parent = ShooterScripts
 Parvus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Parvus.Position = UDim2.new(0, 0, 0.0444444418, 0)
 Parvus.Size = UDim2.new(0, 62, 0, 68)
-Parvus.Image = "rbxassetid://9725360816"
+Parvus.Image = "rbxassetid://9733457312"
 Parvus.ImageColor3 = Color3.fromRGB(254, 255, 142)
 Parvus.ScaleType = Enum.ScaleType.Fit
 
@@ -732,10 +682,10 @@ TextLabel_15.Text = "V.G Hub"
 TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_15.TextSize = 12.000
 
-UIGridLayout_5.Parent = MiscScripts
-UIGridLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_5.CellPadding = UDim2.new(0, 8, 0, 15)
-UIGridLayout_5.CellSize = UDim2.new(0, 90, 0, 90)
+UIGridLayout_4.Parent = MiscScripts
+UIGridLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_4.CellPadding = UDim2.new(0, 8, 0, 15)
+UIGridLayout_4.CellSize = UDim2.new(0, 90, 0, 90)
 
 DarkHub.Name = "DarkHub"
 DarkHub.Parent = MiscScripts
@@ -815,6 +765,166 @@ TextLabel_18.Text = "Shlex Hub"
 TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_18.TextSize = 12.000
 
+VynixusBABFT.Name = "VynixusBABFT"
+VynixusBABFT.Parent = MiscScripts
+VynixusBABFT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VynixusBABFT.Position = UDim2.new(0, 0, 0.0444444418, 0)
+VynixusBABFT.Size = UDim2.new(0, 62, 0, 68)
+VynixusBABFT.Image = "rbxassetid://9733294592"
+VynixusBABFT.ImageColor3 = Color3.fromRGB(254, 255, 142)
+VynixusBABFT.ScaleType = Enum.ScaleType.Fit
+
+UICorner_22.CornerRadius = UDim.new(0, 5)
+UICorner_22.Parent = VynixusBABFT
+
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 78, 238)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(1, 21, 198))}
+UIGradient_20.Parent = VynixusBABFT
+
+TextLabel_19.Parent = VynixusBABFT
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0, 0, 1.06666672, 0)
+TextLabel_19.Size = UDim2.new(0, 90, 0, 18)
+TextLabel_19.Font = Enum.Font.GothamSemibold
+TextLabel_19.Text = "Vynixus [BABFT]"
+TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.TextSize = 12.000
+
+Credits.Name = "Credits"
+Credits.Parent = Container
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0, 0, 0.1037037, 0)
+Credits.Size = UDim2.new(0, 489, 0, 225)
+Credits.Visible = false
+
+SD.Name = "SD"
+SD.Parent = Credits
+SD.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SD.BackgroundTransparency = 1.000
+SD.Position = UDim2.new(0.296523511, 0, 0.252673596, 0)
+SD.Size = UDim2.new(0, 200, 0, 50)
+SD.Font = Enum.Font.SourceSansBold
+SD.Text = "Scipting and Design:"
+SD.TextColor3 = Color3.fromRGB(255, 255, 255)
+SD.TextSize = 14.000
+
+IDS.Name = "IDS"
+IDS.Parent = Credits
+IDS.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IDS.BackgroundTransparency = 1.000
+IDS.Position = UDim2.new(0.296523511, 0, 0.439340264, 0)
+IDS.Size = UDim2.new(0, 200, 0, 50)
+IDS.Font = Enum.Font.SourceSansBold
+IDS.Text = "Idea, help and Support:"
+IDS.TextColor3 = Color3.fromRGB(255, 255, 255)
+IDS.TextSize = 14.000
+
+Simpie.Name = "Simpie"
+Simpie.Parent = Credits
+Simpie.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Simpie.BackgroundTransparency = 1.000
+Simpie.Position = UDim2.new(0.296523511, 0, 0.323784709, 0)
+Simpie.Size = UDim2.new(0, 200, 0, 50)
+Simpie.Font = Enum.Font.SourceSansSemibold
+Simpie.Text = "simpie#8848"
+Simpie.TextColor3 = Color3.fromRGB(255, 255, 255)
+Simpie.TextSize = 14.000
+
+BlijeKevinKevinMetBaard.Name = "BlijeKevinKevinMetBaard"
+BlijeKevinKevinMetBaard.Parent = Credits
+BlijeKevinKevinMetBaard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BlijeKevinKevinMetBaard.BackgroundTransparency = 1.000
+BlijeKevinKevinMetBaard.Position = UDim2.new(0.296523511, 0, 0.514895797, 0)
+BlijeKevinKevinMetBaard.Size = UDim2.new(0, 200, 0, 50)
+BlijeKevinKevinMetBaard.Font = Enum.Font.SourceSansSemibold
+BlijeKevinKevinMetBaard.Text = "Blije Kevin & KevinMetBaard"
+BlijeKevinKevinMetBaard.TextColor3 = Color3.fromRGB(255, 255, 255)
+BlijeKevinKevinMetBaard.TextSize = 14.000
+
+ImageLabel.Parent = Credits
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.466257662, 0, 0.168888867, 0)
+ImageLabel.Size = UDim2.new(0, 32, 0, 28)
+ImageLabel.Image = "rbxassetid://9717269783"
+
+Text.Name = "Text"
+Text.Parent = Container
+Text.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Text.BackgroundTransparency = 1.000
+Text.BorderSizePixel = 0
+Text.Size = UDim2.new(0, 490, 0, 20)
+
+UIGridLayout_5.Parent = Text
+UIGridLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_5.CellSize = UDim2.new(0, 90, 0, 20)
+
+Page1.Name = "Page1"
+Page1.Parent = Text
+Page1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page1.BackgroundTransparency = 1.000
+Page1.BorderSizePixel = 0
+Page1.Position = UDim2.new(0.197959185, 0, 0, 0)
+Page1.Size = UDim2.new(0, 90, 0, 20)
+Page1.Font = Enum.Font.SourceSans
+Page1.Text = "Admin Scripts"
+Page1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page1.TextSize = 14.000
+Page1.TextWrapped = true
+
+Page2.Name = "Page2"
+Page2.Parent = Text
+Page2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page2.BackgroundTransparency = 1.000
+Page2.BorderSizePixel = 0
+Page2.Size = UDim2.new(0, 90, 0, 20)
+Page2.Font = Enum.Font.SourceSans
+Page2.Text = "Local Scripts"
+Page2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page2.TextSize = 14.000
+Page2.TextWrapped = true
+
+Page4.Name = "Page4"
+Page4.Parent = Text
+Page4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page4.BackgroundTransparency = 1.000
+Page4.BorderSizePixel = 0
+Page4.Size = UDim2.new(0, 90, 0, 20)
+Page4.Font = Enum.Font.SourceSans
+Page4.Text = "Shooters Scripts"
+Page4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page4.TextSize = 14.000
+Page4.TextWrapped = true
+
+Page5.Name = "Page5"
+Page5.Parent = Text
+Page5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page5.BackgroundTransparency = 1.000
+Page5.BorderSizePixel = 0
+Page5.Position = UDim2.new(-0.497959167, 0, 15.6000004, 0)
+Page5.Size = UDim2.new(0, 90, 0, 20)
+Page5.Font = Enum.Font.SourceSans
+Page5.Text = "Misc Scripts"
+Page5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page5.TextSize = 14.000
+Page5.TextWrapped = true
+
+Page5_2.Name = "Page5"
+Page5_2.Parent = Text
+Page5_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Page5_2.BackgroundTransparency = 1.000
+Page5_2.BorderSizePixel = 0
+Page5_2.Position = UDim2.new(-0.459183663, 0, 15.6000004, 0)
+Page5_2.Size = UDim2.new(0, 90, 0, 20)
+Page5_2.Font = Enum.Font.SourceSans
+Page5_2.Text = "Credits"
+Page5_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Page5_2.TextSize = 14.000
+Page5_2.TextWrapped = true
+
 MinButton.Name = "MinButton"
 MinButton.Parent = GorillaHub
 MinButton.BackgroundColor3 = Color3.fromRGB(22, 21, 30)
@@ -828,7 +938,7 @@ MinButton.TextSize = 14.000
 
 -- Scripts:
 
-local function AYNSBY_fake_script() -- Exit.LocalScript 
+local function BQRBQB_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	local Hub = script.Parent.Parent.Parent.Parent
@@ -838,8 +948,8 @@ local function AYNSBY_fake_script() -- Exit.LocalScript
 	end)
 	
 end
-coroutine.wrap(AYNSBY_fake_script)()
-local function APGTHXY_fake_script() -- Min.LocalScript 
+coroutine.wrap(BQRBQB_fake_script)()
+local function FZJYJNT_fake_script() -- Min.LocalScript 
 	local script = Instance.new('LocalScript', Min)
 
 	local Hub = script.Parent.Parent.Parent
@@ -852,8 +962,8 @@ local function APGTHXY_fake_script() -- Min.LocalScript
 	end)
 	
 end
-coroutine.wrap(APGTHXY_fake_script)()
-local function WGECX_fake_script() -- Base.Dragify 
+coroutine.wrap(FZJYJNT_fake_script)()
+local function FBOP_fake_script() -- Base.Dragify 
 	local script = Instance.new('LocalScript', Base)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -896,80 +1006,108 @@ local function WGECX_fake_script() -- Base.Dragify
 		end
 	end)
 end
-coroutine.wrap(WGECX_fake_script)()
-local function IHFWXOZ_fake_script() -- Page1.LocalScript 
+coroutine.wrap(FBOP_fake_script)()
+local function UWMSNU_fake_script() -- Page1.LocalScript 
 	local script = Instance.new('LocalScript', Page1)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
 	local LS = script.Parent.Parent.Parent["Local Scripts"]
 	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
 	local MS = script.Parent.Parent.Parent["Misc Scripts"]
+	local C = script.Parent.Parent.Parent["Credits"]
 	
-	local AllTabs = {AS,LS,SS,MS}
+	local AllTabs = {AS,LS,SS,MS,C}
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		AllTabs[1].Visible = true
 		AllTabs[2].Visible = false
 		AllTabs[3].Visible = false
 		AllTabs[4].Visible = false
+		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(IHFWXOZ_fake_script)()
-local function GGNQVI_fake_script() -- Page2.LocalScript 
+coroutine.wrap(UWMSNU_fake_script)()
+local function IHTV_fake_script() -- Page2.LocalScript 
 	local script = Instance.new('LocalScript', Page2)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
 	local LS = script.Parent.Parent.Parent["Local Scripts"]
 	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
 	local MS = script.Parent.Parent.Parent["Misc Scripts"]
+	local C = script.Parent.Parent.Parent["Credits"]
 	
-	local AllTabs = {AS,LS,SS,MS}
+	local AllTabs = {AS,LS,SS,MS,C}
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		AllTabs[1].Visible = false
 		AllTabs[2].Visible = true
 		AllTabs[3].Visible = false
 		AllTabs[4].Visible = false
+		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(GGNQVI_fake_script)()
-local function FCEHOE_fake_script() -- Page4.LocalScript 
+coroutine.wrap(IHTV_fake_script)()
+local function NVRVM_fake_script() -- Page4.LocalScript 
 	local script = Instance.new('LocalScript', Page4)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
 	local LS = script.Parent.Parent.Parent["Local Scripts"]
 	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
 	local MS = script.Parent.Parent.Parent["Misc Scripts"]
+	local C = script.Parent.Parent.Parent["Credits"]
 	
-	local AllTabs = {AS,LS,SS,MS}
+	local AllTabs = {AS,LS,SS,MS,C}
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		AllTabs[1].Visible = false
 		AllTabs[2].Visible = false
 		AllTabs[3].Visible = true
 		AllTabs[4].Visible = false
+		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(FCEHOE_fake_script)()
-local function LFGG_fake_script() -- Page5.LocalScript 
+coroutine.wrap(NVRVM_fake_script)()
+local function RJFVP_fake_script() -- Page5.LocalScript 
 	local script = Instance.new('LocalScript', Page5)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
 	local LS = script.Parent.Parent.Parent["Local Scripts"]
 	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
 	local MS = script.Parent.Parent.Parent["Misc Scripts"]
+	local C = script.Parent.Parent.Parent["Credits"]
 	
-	local AllTabs = {AS,LS,SS,MS}
+	local AllTabs = {AS,LS,SS,MS,C}
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		AllTabs[1].Visible = false
 		AllTabs[2].Visible = false
 		AllTabs[3].Visible = false
 		AllTabs[4].Visible = true
+		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(LFGG_fake_script)()
-local function VYTM_fake_script() -- MinButton.LocalScript 
+coroutine.wrap(RJFVP_fake_script)()
+local function VGCPJQW_fake_script() -- Page5_2.LocalScript 
+	local script = Instance.new('LocalScript', Page5_2)
+
+	local AS = script.Parent.Parent.Parent["Admin Scripts"]
+	local LS = script.Parent.Parent.Parent["Local Scripts"]
+	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
+	local MS = script.Parent.Parent.Parent["Misc Scripts"]
+	local C = script.Parent.Parent.Parent["Credits"]
+	
+	local AllTabs = {AS,LS,SS,MS,C}
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		AllTabs[1].Visible = false
+		AllTabs[2].Visible = false
+		AllTabs[3].Visible = false
+		AllTabs[4].Visible = false
+		AllTabs[5].Visible = true
+	end)
+end
+coroutine.wrap(VGCPJQW_fake_script)()
+local function LWYTO_fake_script() -- MinButton.LocalScript 
 	local script = Instance.new('LocalScript', MinButton)
 
 	local Hub = script.Parent.Parent.Base
@@ -981,4 +1119,4 @@ local function VYTM_fake_script() -- MinButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(VYTM_fake_script)()
+coroutine.wrap(LWYTO_fake_script)()
