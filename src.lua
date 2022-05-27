@@ -15,12 +15,12 @@ local Min = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local Icon_2 = Instance.new("ImageLabel")
 local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local Title = Instance.new("TextLabel")
+local Logo = Instance.new("ImageLabel")
 local Music = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local Icon_3 = Instance.new("ImageLabel")
 local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
-local Title = Instance.new("TextLabel")
-local Logo = Instance.new("ImageLabel")
 local Container = Instance.new("Frame")
 local AdminScripts = Instance.new("Frame")
 local InfiniteYield = Instance.new("ImageLabel")
@@ -131,6 +131,7 @@ Base.Name = "Base"
 Base.Parent = GorillaHub
 Base.BackgroundColor3 = Color3.fromRGB(22, 21, 30)
 Base.BorderSizePixel = 0
+Base.ClipsDescendants = true
 Base.Position = UDim2.new(0.368106991, 0, 0.359272599, 0)
 Base.Size = UDim2.new(0, 506, 0, 302)
 
@@ -191,6 +192,27 @@ Icon_2.Image = "rbxassetid://7072719240"
 
 UIAspectRatioConstraint_2.Parent = Icon_2
 
+Title.Name = "Title"
+Title.Parent = TopBar
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0158102773, 0, 0, 0)
+Title.Size = UDim2.new(0, 123, 0, 32)
+Title.Font = Enum.Font.SourceSansSemibold
+Title.Text = "Gorilla Hub "
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 14.000
+
+Logo.Name = "Logo"
+Logo.Parent = TopBar
+Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Logo.BackgroundTransparency = 1.000
+Logo.BorderSizePixel = 0
+Logo.Position = UDim2.new(0.0158102773, 0, 0.125, 0)
+Logo.Size = UDim2.new(0, 21, 0, 23)
+Logo.Image = "rbxassetid://9717269783"
+
 Music.Name = "Music"
 Music.Parent = TopBar
 Music.BackgroundColor3 = Color3.fromRGB(80, 255, 106)
@@ -215,27 +237,6 @@ Icon_3.Image = "rbxassetid://7072719671"
 
 UIAspectRatioConstraint_3.Parent = Icon_3
 
-Title.Name = "Title"
-Title.Parent = TopBar
-Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Title.BackgroundTransparency = 1.000
-Title.BorderSizePixel = 0
-Title.Position = UDim2.new(0.0158102773, 0, 0, 0)
-Title.Size = UDim2.new(0, 123, 0, 32)
-Title.Font = Enum.Font.SourceSansSemibold
-Title.Text = "Gorilla Hub "
-Title.TextColor3 = Color3.fromRGB(255, 255, 255)
-Title.TextSize = 14.000
-
-Logo.Name = "Logo"
-Logo.Parent = TopBar
-Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Logo.BackgroundTransparency = 1.000
-Logo.BorderSizePixel = 0
-Logo.Position = UDim2.new(0.0158102773, 0, 0.125, 0)
-Logo.Size = UDim2.new(0, 21, 0, 23)
-Logo.Image = "rbxassetid://9717269783"
-
 Container.Name = "Container"
 Container.Parent = Base
 Container.BackgroundColor3 = Color3.fromRGB(22, 21, 30)
@@ -250,7 +251,6 @@ AdminScripts.BackgroundTransparency = 1.000
 AdminScripts.BorderSizePixel = 0
 AdminScripts.Position = UDim2.new(0, 0, 0.1037037, 0)
 AdminScripts.Size = UDim2.new(0, 489, 0, 225)
-AdminScripts.Visible = false
 
 InfiniteYield.Name = "InfiniteYield"
 InfiniteYield.Parent = AdminScripts
@@ -564,6 +564,7 @@ ShooterScripts.BackgroundTransparency = 1.000
 ShooterScripts.BorderSizePixel = 0
 ShooterScripts.Position = UDim2.new(0, 0, 0.1037037, 0)
 ShooterScripts.Size = UDim2.new(0, 489, 0, 225)
+ShooterScripts.Visible = false
 
 Blissfull.Name = "Blissfull"
 Blissfull.Parent = ShooterScripts
@@ -928,7 +929,7 @@ Page5_2.TextWrapped = true
 MinButton.Name = "MinButton"
 MinButton.Parent = GorillaHub
 MinButton.BackgroundColor3 = Color3.fromRGB(22, 21, 30)
-MinButton.Position = UDim2.new(0.469515383, 0, 0.958333373, 0)
+MinButton.Position = UDim2.new(0.467000008, 0, 0.95599997, 1)
 MinButton.Size = UDim2.new(0, 117, 0, 32)
 MinButton.Visible = false
 MinButton.Font = Enum.Font.SourceSansBold
@@ -938,33 +939,170 @@ MinButton.TextSize = 14.000
 
 -- Scripts:
 
-local function BQRBQB_fake_script() -- Exit.LocalScript 
+local function DWTLGW_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
-	local Hub = script.Parent.Parent.Parent.Parent
+	local Hub = script.Parent.Parent.Parent.Parent.Base
+	local GUI = script.Parent.Parent.Parent.Parent
+	local CloseSize = UDim2.new(0, 0,0, 0)
+	local ClosePos = UDim2.new(0.5, 0,0.5, 0)
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		Hub:Destroy()
+		wait(0.2)
+		Hub:TweenSizeAndPosition(CloseSize, ClosePos)
+		wait(1)
+		GUI:Destroy()
 	end)
-	
 end
-coroutine.wrap(BQRBQB_fake_script)()
-local function FZJYJNT_fake_script() -- Min.LocalScript 
+coroutine.wrap(DWTLGW_fake_script)()
+local function SVSTSCX_fake_script() -- Min.LocalScript 
 	local script = Instance.new('LocalScript', Min)
 
 	local Hub = script.Parent.Parent.Parent
 	local Button = script.Parent.Parent.Parent.Parent.MinButton
 	local Close = script.Parent
+	local PosClosed = UDim2.new(0.368, 0,1, 1)
+	local PosOpened = UDim2.new(0.368, 0,0.359, 0)
+	local ButtonClosed = UDim2.new(0.469, 0,1, 1)
+	local ButtonOpened = UDim2.new(0.467, 0,0.956, 1)
+	local open = true
+	
 	
 	Close.MouseButton1Click:Connect(function()
-		Hub.Visible = false
-		Button.Visible = true
+		if open == true then
+			Hub:TweenPosition((PosClosed), "Out", "Quart")
+			wait(0.4)
+			Button.Visible = true
+			open = false
+		end
+	end)
+end
+coroutine.wrap(SVSTSCX_fake_script)()
+local function OLGSPU_fake_script() -- Page1.LocalScript 
+	local script = Instance.new('LocalScript', Page1)
+
+	local AS = script.Parent.Parent.Parent["Admin Scripts"]
+	local LS = script.Parent.Parent.Parent["Local Scripts"]
+	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
+	local MS = script.Parent.Parent.Parent["Misc Scripts"]
+	local C = script.Parent.Parent.Parent["Credits"]
+	
+	local AllTabs = {AS,LS,SS,MS,C}
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		AllTabs[1].Visible = true
+		AllTabs[2].Visible = false
+		AllTabs[3].Visible = false
+		AllTabs[4].Visible = false
+		AllTabs[5].Visible = false
 	end)
 	
 end
-coroutine.wrap(FZJYJNT_fake_script)()
-local function FBOP_fake_script() -- Base.Dragify 
-	local script = Instance.new('LocalScript', Base)
+coroutine.wrap(OLGSPU_fake_script)()
+local function ZZXJYTC_fake_script() -- Page2.LocalScript 
+	local script = Instance.new('LocalScript', Page2)
+
+	local AS = script.Parent.Parent.Parent["Admin Scripts"]
+	local LS = script.Parent.Parent.Parent["Local Scripts"]
+	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
+	local MS = script.Parent.Parent.Parent["Misc Scripts"]
+	local C = script.Parent.Parent.Parent["Credits"]
+	
+	local AllTabs = {AS,LS,SS,MS,C}
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		AllTabs[1].Visible = false
+		AllTabs[2].Visible = true
+		AllTabs[3].Visible = false
+		AllTabs[4].Visible = false
+		AllTabs[5].Visible = false
+	end)
+end
+coroutine.wrap(ZZXJYTC_fake_script)()
+local function OJNF_fake_script() -- Page4.LocalScript 
+	local script = Instance.new('LocalScript', Page4)
+
+	local AS = script.Parent.Parent.Parent["Admin Scripts"]
+	local LS = script.Parent.Parent.Parent["Local Scripts"]
+	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
+	local MS = script.Parent.Parent.Parent["Misc Scripts"]
+	local C = script.Parent.Parent.Parent["Credits"]
+	
+	local AllTabs = {AS,LS,SS,MS,C}
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		AllTabs[1].Visible = false
+		AllTabs[2].Visible = false
+		AllTabs[3].Visible = true
+		AllTabs[4].Visible = false
+		AllTabs[5].Visible = false
+	end)
+end
+coroutine.wrap(OJNF_fake_script)()
+local function PEDV_fake_script() -- Page5.LocalScript 
+	local script = Instance.new('LocalScript', Page5)
+
+	local AS = script.Parent.Parent.Parent["Admin Scripts"]
+	local LS = script.Parent.Parent.Parent["Local Scripts"]
+	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
+	local MS = script.Parent.Parent.Parent["Misc Scripts"]
+	local C = script.Parent.Parent.Parent["Credits"]
+	
+	local AllTabs = {AS,LS,SS,MS,C}
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		AllTabs[1].Visible = false
+		AllTabs[2].Visible = false
+		AllTabs[3].Visible = false
+		AllTabs[4].Visible = true
+		AllTabs[5].Visible = false
+	end)
+end
+coroutine.wrap(PEDV_fake_script)()
+local function AABZ_fake_script() -- Page5_2.LocalScript 
+	local script = Instance.new('LocalScript', Page5_2)
+
+	local AS = script.Parent.Parent.Parent["Admin Scripts"]
+	local LS = script.Parent.Parent.Parent["Local Scripts"]
+	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
+	local MS = script.Parent.Parent.Parent["Misc Scripts"]
+	local C = script.Parent.Parent.Parent["Credits"]
+	
+	local AllTabs = {AS,LS,SS,MS,C}
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		AllTabs[1].Visible = false
+		AllTabs[2].Visible = false
+		AllTabs[3].Visible = false
+		AllTabs[4].Visible = false
+		AllTabs[5].Visible = true
+	end)
+end
+coroutine.wrap(AABZ_fake_script)()
+local function BCXI_fake_script() -- MinButton.LocalScript 
+	local script = Instance.new('LocalScript', MinButton)
+
+	local Hub = script.Parent.Parent.Base
+	local Button = script.Parent
+	local PosClosed = UDim2.new(0.368, 0,1, 1)
+	local PosOpened = UDim2.new(0.368, 0,0.359, 0)
+	local ButtonClosed = UDim2.new(0.469, 0,1, 1)
+	local ButtonOpened = UDim2.new(0.467, 0,0.956, 1)
+	local open = false
+	
+	
+	Button.MouseButton1Click:Connect(function()
+		if open == false then
+			Hub:TweenPosition((PosOpened), "In", "Quart")
+			wait(0.7)
+			Button.Visible = false
+			open = true
+		end
+	end)
+end
+coroutine.wrap(BCXI_fake_script)()
+local function USDJERQ_fake_script() -- MinButton.Dragify 
+	local script = Instance.new('LocalScript', MinButton)
 
 	local UserInputService = game:GetService("UserInputService")
 	
@@ -1006,117 +1144,4 @@ local function FBOP_fake_script() -- Base.Dragify
 		end
 	end)
 end
-coroutine.wrap(FBOP_fake_script)()
-local function UWMSNU_fake_script() -- Page1.LocalScript 
-	local script = Instance.new('LocalScript', Page1)
-
-	local AS = script.Parent.Parent.Parent["Admin Scripts"]
-	local LS = script.Parent.Parent.Parent["Local Scripts"]
-	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
-	local MS = script.Parent.Parent.Parent["Misc Scripts"]
-	local C = script.Parent.Parent.Parent["Credits"]
-	
-	local AllTabs = {AS,LS,SS,MS,C}
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		AllTabs[1].Visible = true
-		AllTabs[2].Visible = false
-		AllTabs[3].Visible = false
-		AllTabs[4].Visible = false
-		AllTabs[5].Visible = false
-	end)
-end
-coroutine.wrap(UWMSNU_fake_script)()
-local function IHTV_fake_script() -- Page2.LocalScript 
-	local script = Instance.new('LocalScript', Page2)
-
-	local AS = script.Parent.Parent.Parent["Admin Scripts"]
-	local LS = script.Parent.Parent.Parent["Local Scripts"]
-	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
-	local MS = script.Parent.Parent.Parent["Misc Scripts"]
-	local C = script.Parent.Parent.Parent["Credits"]
-	
-	local AllTabs = {AS,LS,SS,MS,C}
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		AllTabs[1].Visible = false
-		AllTabs[2].Visible = true
-		AllTabs[3].Visible = false
-		AllTabs[4].Visible = false
-		AllTabs[5].Visible = false
-	end)
-end
-coroutine.wrap(IHTV_fake_script)()
-local function NVRVM_fake_script() -- Page4.LocalScript 
-	local script = Instance.new('LocalScript', Page4)
-
-	local AS = script.Parent.Parent.Parent["Admin Scripts"]
-	local LS = script.Parent.Parent.Parent["Local Scripts"]
-	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
-	local MS = script.Parent.Parent.Parent["Misc Scripts"]
-	local C = script.Parent.Parent.Parent["Credits"]
-	
-	local AllTabs = {AS,LS,SS,MS,C}
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		AllTabs[1].Visible = false
-		AllTabs[2].Visible = false
-		AllTabs[3].Visible = true
-		AllTabs[4].Visible = false
-		AllTabs[5].Visible = false
-	end)
-end
-coroutine.wrap(NVRVM_fake_script)()
-local function RJFVP_fake_script() -- Page5.LocalScript 
-	local script = Instance.new('LocalScript', Page5)
-
-	local AS = script.Parent.Parent.Parent["Admin Scripts"]
-	local LS = script.Parent.Parent.Parent["Local Scripts"]
-	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
-	local MS = script.Parent.Parent.Parent["Misc Scripts"]
-	local C = script.Parent.Parent.Parent["Credits"]
-	
-	local AllTabs = {AS,LS,SS,MS,C}
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		AllTabs[1].Visible = false
-		AllTabs[2].Visible = false
-		AllTabs[3].Visible = false
-		AllTabs[4].Visible = true
-		AllTabs[5].Visible = false
-	end)
-end
-coroutine.wrap(RJFVP_fake_script)()
-local function VGCPJQW_fake_script() -- Page5_2.LocalScript 
-	local script = Instance.new('LocalScript', Page5_2)
-
-	local AS = script.Parent.Parent.Parent["Admin Scripts"]
-	local LS = script.Parent.Parent.Parent["Local Scripts"]
-	local SS = script.Parent.Parent.Parent["Shooter Scripts"]
-	local MS = script.Parent.Parent.Parent["Misc Scripts"]
-	local C = script.Parent.Parent.Parent["Credits"]
-	
-	local AllTabs = {AS,LS,SS,MS,C}
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		AllTabs[1].Visible = false
-		AllTabs[2].Visible = false
-		AllTabs[3].Visible = false
-		AllTabs[4].Visible = false
-		AllTabs[5].Visible = true
-	end)
-end
-coroutine.wrap(VGCPJQW_fake_script)()
-local function LWYTO_fake_script() -- MinButton.LocalScript 
-	local script = Instance.new('LocalScript', MinButton)
-
-	local Hub = script.Parent.Parent.Base
-	local Button = script.Parent
-	
-	Button.MouseButton1Click:Connect(function()
-		Hub.Visible = true
-		Button.Visible = false
-	end)
-	
-end
-coroutine.wrap(LWYTO_fake_script)()
+coroutine.wrap(USDJERQ_fake_script)()
