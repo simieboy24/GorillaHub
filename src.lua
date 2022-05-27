@@ -36,7 +36,7 @@ local Reviz = Instance.new("ImageLabel")
 local UICorner_6 = Instance.new("UICorner")
 local UIGradient_4 = Instance.new("UIGradient")
 local TextLabel_3 = Instance.new("TextLabel")
-local Reviz_2 = Instance.new("ImageLabel")
+local Fates = Instance.new("ImageLabel")
 local UICorner_7 = Instance.new("UICorner")
 local UIGradient_5 = Instance.new("UIGradient")
 local TextLabel_4 = Instance.new("TextLabel")
@@ -260,6 +260,9 @@ InfiniteYield.Size = UDim2.new(0, 62, 0, 68)
 InfiniteYield.Image = "rbxassetid://9722482545"
 InfiniteYield.ImageColor3 = Color3.fromRGB(254, 255, 142)
 InfiniteYield.ScaleType = Enum.ScaleType.Fit
+InfiniteYield.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
 
 UICorner_4.CornerRadius = UDim.new(0, 5)
 UICorner_4.Parent = InfiniteYield
@@ -291,6 +294,10 @@ CMDX.Size = UDim2.new(0, 62, 0, 68)
 CMDX.Image = "rbxassetid://9722577796"
 CMDX.ImageColor3 = Color3.fromRGB(254, 255, 142)
 CMDX.ScaleType = Enum.ScaleType.Fit
+CMDX.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+end)
+
 
 UICorner_5.CornerRadius = UDim.new(0, 5)
 UICorner_5.Parent = CMDX
@@ -317,6 +324,9 @@ Reviz.Size = UDim2.new(0, 62, 0, 68)
 Reviz.Image = "rbxassetid://9722744993"
 Reviz.ImageColor3 = Color3.fromRGB(254, 255, 142)
 Reviz.ScaleType = Enum.ScaleType.Fit
+Reviz.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet(('https://pastebin.com/raw/Caniwq2N'),true))()
+end)
 
 UICorner_6.CornerRadius = UDim.new(0, 5)
 UICorner_6.Parent = Reviz
@@ -335,22 +345,25 @@ TextLabel_3.Text = "Reviz Admin"
 TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextSize = 12.000
 
-Reviz_2.Name = "Reviz"
-Reviz_2.Parent = AdminScripts
-Reviz_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Reviz_2.Position = UDim2.new(0, 0, 0.0444444418, 0)
-Reviz_2.Size = UDim2.new(0, 62, 0, 68)
-Reviz_2.Image = "rbxassetid://9722808174"
-Reviz_2.ImageColor3 = Color3.fromRGB(254, 255, 142)
-Reviz_2.ScaleType = Enum.ScaleType.Crop
+Fates.Name = "Fates"
+Fates.Parent = AdminScripts
+Fates.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fates.Position = UDim2.new(0, 0, 0.0444444418, 0)
+Fates.Size = UDim2.new(0, 62, 0, 68)
+Fates.Image = "rbxassetid://9722808174"
+Fates.ImageColor3 = Color3.fromRGB(254, 255, 142)
+Fates.ScaleType = Enum.ScaleType.Crop
+Fates.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
 
 UICorner_7.CornerRadius = UDim.new(0, 5)
-UICorner_7.Parent = Reviz_2
+UICorner_7.Parent = Fates
 
 UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 93)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
-UIGradient_5.Parent = Reviz_2
+UIGradient_5.Parent = Fates
 
-TextLabel_4.Parent = Reviz_2
+TextLabel_4.Parent = Fates
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.BackgroundTransparency = 1.000
 TextLabel_4.BorderSizePixel = 0
@@ -378,6 +391,9 @@ InfJump.Size = UDim2.new(0, 62, 0, 68)
 InfJump.Image = "rbxassetid://9722933997"
 InfJump.ImageColor3 = Color3.fromRGB(254, 255, 142)
 InfJump.ScaleType = Enum.ScaleType.Crop
+InfJump.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/pDy1Ru0J"))();
+end)
 
 UICorner_8.CornerRadius = UDim.new(0, 5)
 UICorner_8.Parent = InfJump
@@ -409,6 +425,9 @@ FECHECK.Size = UDim2.new(0, 62, 0, 68)
 FECHECK.Image = "rbxassetid://9722934304"
 FECHECK.ImageColor3 = Color3.fromRGB(254, 255, 142)
 FECHECK.ScaleType = Enum.ScaleType.Crop
+FECHECK.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/NU7Ub2NV"))();
+end)
 
 UICorner_9.CornerRadius = UDim.new(0, 5)
 UICorner_9.Parent = FECHECK
@@ -435,6 +454,9 @@ FreeCam.Size = UDim2.new(0, 62, 0, 68)
 FreeCam.Image = "rbxassetid://9722934641"
 FreeCam.ImageColor3 = Color3.fromRGB(254, 255, 142)
 FreeCam.ScaleType = Enum.ScaleType.Crop
+FreeCam.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint:Destroy()
+end)
 
 UICorner_10.CornerRadius = UDim.new(0, 5)
 UICorner_10.Parent = FreeCam
@@ -461,6 +483,9 @@ NoArms.Size = UDim2.new(0, 62, 0, 68)
 NoArms.Image = "rbxassetid://9722940552"
 NoArms.ImageColor3 = Color3.fromRGB(254, 255, 142)
 NoArms.ScaleType = Enum.ScaleType.Crop
+NoArms.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/BKF9Hq69"))();
+end)
 
 UICorner_11.CornerRadius = UDim.new(0, 5)
 UICorner_11.Parent = NoArms
@@ -487,6 +512,9 @@ NoLegs.Size = UDim2.new(0, 62, 0, 68)
 NoLegs.Image = "rbxassetid://9722990342"
 NoLegs.ImageColor3 = Color3.fromRGB(254, 255, 142)
 NoLegs.ScaleType = Enum.ScaleType.Crop
+NoLegs.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ywB7w48x"))();
+end)
 
 UICorner_12.CornerRadius = UDim.new(0, 5)
 UICorner_12.Parent = NoLegs
@@ -513,6 +541,9 @@ Gravity.Size = UDim2.new(0, 62, 0, 68)
 Gravity.Image = "rbxassetid://9722934479"
 Gravity.ImageColor3 = Color3.fromRGB(254, 255, 142)
 Gravity.ScaleType = Enum.ScaleType.Crop
+Gravity.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ywB7w48x"))();
+end)
 
 UICorner_13.CornerRadius = UDim.new(0, 5)
 UICorner_13.Parent = Gravity
@@ -574,6 +605,9 @@ Blissfull.Size = UDim2.new(0, 62, 0, 68)
 Blissfull.Image = "rbxassetid://9725347857"
 Blissfull.ImageColor3 = Color3.fromRGB(254, 255, 142)
 Blissfull.ScaleType = Enum.ScaleType.Fit
+Blissfull.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()
+end)
 
 UICorner_15.CornerRadius = UDim.new(0, 5)
 UICorner_15.Parent = Blissfull
@@ -605,6 +639,9 @@ Unnamed.Size = UDim2.new(0, 62, 0, 68)
 Unnamed.Image = "rbxassetid://9725355006"
 Unnamed.ImageColor3 = Color3.fromRGB(254, 255, 142)
 Unnamed.ScaleType = Enum.ScaleType.Fit
+Unnamed.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))();
+end)
 
 UICorner_16.CornerRadius = UDim.new(0, 5)
 UICorner_16.Parent = Unnamed
@@ -631,6 +668,9 @@ Parvus.Size = UDim2.new(0, 62, 0, 68)
 Parvus.Image = "rbxassetid://9733457312"
 Parvus.ImageColor3 = Color3.fromRGB(254, 255, 142)
 Parvus.ScaleType = Enum.ScaleType.Fit
+Parvus.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Parvus/main/Loader.lua"))();
+end)
 
 UICorner_17.CornerRadius = UDim.new(0, 5)
 UICorner_17.Parent = Parvus
@@ -665,6 +705,9 @@ VgHub.Position = UDim2.new(0, 0, 0.0444444418, 0)
 VgHub.Size = UDim2.new(0, 62, 0, 68)
 VgHub.Image = "rbxassetid://9725228020"
 VgHub.ImageColor3 = Color3.fromRGB(254, 255, 142)
+VgHub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
 
 UICorner_18.CornerRadius = UDim.new(0, 5)
 UICorner_18.Parent = VgHub
@@ -696,6 +739,9 @@ DarkHub.Size = UDim2.new(0, 62, 0, 68)
 DarkHub.Image = "rbxassetid://9725304421"
 DarkHub.ImageColor3 = Color3.fromRGB(254, 255, 142)
 DarkHub.ScaleType = Enum.ScaleType.Crop
+DarkHub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
 
 UICorner_19.CornerRadius = UDim.new(0, 5)
 UICorner_19.Parent = DarkHub
@@ -722,6 +768,9 @@ Evo.Size = UDim2.new(0, 62, 0, 68)
 Evo.Image = "rbxassetid://9725334708"
 Evo.ImageColor3 = Color3.fromRGB(254, 255, 142)
 Evo.ScaleType = Enum.ScaleType.Crop
+Evo.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
 
 UICorner_20.CornerRadius = UDim.new(0, 5)
 UICorner_20.Parent = Evo
@@ -740,6 +789,7 @@ TextLabel_17.Text = "Evo V3"
 TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_17.TextSize = 12.000
 
+
 Shlex.Name = "Shlex"
 Shlex.Parent = MiscScripts
 Shlex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -748,6 +798,9 @@ Shlex.Size = UDim2.new(0, 62, 0, 68)
 Shlex.Image = "rbxassetid://9725410086"
 Shlex.ImageColor3 = Color3.fromRGB(254, 255, 142)
 Shlex.ScaleType = Enum.ScaleType.Crop
+Shlex.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://shlex.dev/release/domainx/latest.lua',true))()
+end)
 
 UICorner_21.CornerRadius = UDim.new(0, 5)
 UICorner_21.Parent = Shlex
@@ -774,6 +827,9 @@ VynixusBABFT.Size = UDim2.new(0, 62, 0, 68)
 VynixusBABFT.Image = "rbxassetid://9733294592"
 VynixusBABFT.ImageColor3 = Color3.fromRGB(254, 255, 142)
 VynixusBABFT.ScaleType = Enum.ScaleType.Fit
+VynixusBABFT.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
+end)
 
 UICorner_22.CornerRadius = UDim.new(0, 5)
 UICorner_22.Parent = VynixusBABFT
@@ -939,7 +995,7 @@ MinButton.TextSize = 14.000
 
 -- Scripts:
 
-local function XLDDW_fake_script() -- Exit.LocalScript 
+local function ADEWJI_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	local Hub = script.Parent.Parent.Parent.Parent.Base
@@ -954,8 +1010,8 @@ local function XLDDW_fake_script() -- Exit.LocalScript
 		GUI:Destroy()
 	end)
 end
-coroutine.wrap(XLDDW_fake_script)()
-local function GVCZBZK_fake_script() -- Min.LocalScript 
+coroutine.wrap(ADEWJI_fake_script)()
+local function MMKZFX_fake_script() -- Min.LocalScript 
 	local script = Instance.new('LocalScript', Min)
 
 	local Hub = script.Parent.Parent.Parent
@@ -977,8 +1033,8 @@ local function GVCZBZK_fake_script() -- Min.LocalScript
 		end
 	end)
 end
-coroutine.wrap(GVCZBZK_fake_script)()
-local function LRBPEJ_fake_script() -- Page1.LocalScript 
+coroutine.wrap(MMKZFX_fake_script)()
+local function KUKYTJG_fake_script() -- Page1.LocalScript 
 	local script = Instance.new('LocalScript', Page1)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -996,10 +1052,9 @@ local function LRBPEJ_fake_script() -- Page1.LocalScript
 		AllTabs[4].Visible = false
 		AllTabs[5].Visible = false
 	end)
-	
 end
-coroutine.wrap(LRBPEJ_fake_script)()
-local function FCGWYL_fake_script() -- Page2.LocalScript 
+coroutine.wrap(KUKYTJG_fake_script)()
+local function XBMO_fake_script() -- Page2.LocalScript 
 	local script = Instance.new('LocalScript', Page2)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1018,8 +1073,8 @@ local function FCGWYL_fake_script() -- Page2.LocalScript
 		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(FCGWYL_fake_script)()
-local function NIQUHSX_fake_script() -- Page4.LocalScript 
+coroutine.wrap(XBMO_fake_script)()
+local function RHPZO_fake_script() -- Page4.LocalScript 
 	local script = Instance.new('LocalScript', Page4)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1038,8 +1093,8 @@ local function NIQUHSX_fake_script() -- Page4.LocalScript
 		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(NIQUHSX_fake_script)()
-local function ADUKR_fake_script() -- Page5.LocalScript 
+coroutine.wrap(RHPZO_fake_script)()
+local function PJLF_fake_script() -- Page5.LocalScript 
 	local script = Instance.new('LocalScript', Page5)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1058,8 +1113,8 @@ local function ADUKR_fake_script() -- Page5.LocalScript
 		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(ADUKR_fake_script)()
-local function OFPDM_fake_script() -- Page5_2.LocalScript 
+coroutine.wrap(PJLF_fake_script)()
+local function HUDBUWP_fake_script() -- Page5_2.LocalScript 
 	local script = Instance.new('LocalScript', Page5_2)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1078,8 +1133,8 @@ local function OFPDM_fake_script() -- Page5_2.LocalScript
 		AllTabs[5].Visible = true
 	end)
 end
-coroutine.wrap(OFPDM_fake_script)()
-local function GCDDEW_fake_script() -- Base.Dragify 
+coroutine.wrap(HUDBUWP_fake_script)()
+local function DQGD_fake_script() -- Base.Dragify 
 	local script = Instance.new('LocalScript', Base)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1115,8 +1170,8 @@ local function GCDDEW_fake_script() -- Base.Dragify
 		end
 	end)
 end
-coroutine.wrap(GCDDEW_fake_script)()
-local function UOIY_fake_script() -- MinButton.LocalScript 
+coroutine.wrap(DQGD_fake_script)()
+local function UHGGCA_fake_script() -- MinButton.LocalScript 
 	local script = Instance.new('LocalScript', MinButton)
 
 	local Hub = script.Parent.Parent.Base
@@ -1137,8 +1192,8 @@ local function UOIY_fake_script() -- MinButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UOIY_fake_script)()
-local function OUPF_fake_script() -- MinButton.Dragify 
+coroutine.wrap(UHGGCA_fake_script)()
+local function PMVZLTW_fake_script() -- MinButton.Dragify 
 	local script = Instance.new('LocalScript', MinButton)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1181,4 +1236,4 @@ local function OUPF_fake_script() -- MinButton.Dragify
 		end
 	end)
 end
-coroutine.wrap(OUPF_fake_script)()
+coroutine.wrap(PMVZLTW_fake_script)()
