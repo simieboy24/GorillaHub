@@ -939,7 +939,7 @@ MinButton.TextSize = 14.000
 
 -- Scripts:
 
-local function DWTLGW_fake_script() -- Exit.LocalScript 
+local function XLDDW_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	local Hub = script.Parent.Parent.Parent.Parent.Base
@@ -954,8 +954,8 @@ local function DWTLGW_fake_script() -- Exit.LocalScript
 		GUI:Destroy()
 	end)
 end
-coroutine.wrap(DWTLGW_fake_script)()
-local function SVSTSCX_fake_script() -- Min.LocalScript 
+coroutine.wrap(XLDDW_fake_script)()
+local function GVCZBZK_fake_script() -- Min.LocalScript 
 	local script = Instance.new('LocalScript', Min)
 
 	local Hub = script.Parent.Parent.Parent
@@ -977,8 +977,8 @@ local function SVSTSCX_fake_script() -- Min.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SVSTSCX_fake_script)()
-local function OLGSPU_fake_script() -- Page1.LocalScript 
+coroutine.wrap(GVCZBZK_fake_script)()
+local function LRBPEJ_fake_script() -- Page1.LocalScript 
 	local script = Instance.new('LocalScript', Page1)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -998,8 +998,8 @@ local function OLGSPU_fake_script() -- Page1.LocalScript
 	end)
 	
 end
-coroutine.wrap(OLGSPU_fake_script)()
-local function ZZXJYTC_fake_script() -- Page2.LocalScript 
+coroutine.wrap(LRBPEJ_fake_script)()
+local function FCGWYL_fake_script() -- Page2.LocalScript 
 	local script = Instance.new('LocalScript', Page2)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1018,8 +1018,8 @@ local function ZZXJYTC_fake_script() -- Page2.LocalScript
 		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(ZZXJYTC_fake_script)()
-local function OJNF_fake_script() -- Page4.LocalScript 
+coroutine.wrap(FCGWYL_fake_script)()
+local function NIQUHSX_fake_script() -- Page4.LocalScript 
 	local script = Instance.new('LocalScript', Page4)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1038,8 +1038,8 @@ local function OJNF_fake_script() -- Page4.LocalScript
 		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(OJNF_fake_script)()
-local function PEDV_fake_script() -- Page5.LocalScript 
+coroutine.wrap(NIQUHSX_fake_script)()
+local function ADUKR_fake_script() -- Page5.LocalScript 
 	local script = Instance.new('LocalScript', Page5)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1058,8 +1058,8 @@ local function PEDV_fake_script() -- Page5.LocalScript
 		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(PEDV_fake_script)()
-local function AABZ_fake_script() -- Page5_2.LocalScript 
+coroutine.wrap(ADUKR_fake_script)()
+local function OFPDM_fake_script() -- Page5_2.LocalScript 
 	local script = Instance.new('LocalScript', Page5_2)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1078,8 +1078,45 @@ local function AABZ_fake_script() -- Page5_2.LocalScript
 		AllTabs[5].Visible = true
 	end)
 end
-coroutine.wrap(AABZ_fake_script)()
-local function BCXI_fake_script() -- MinButton.LocalScript 
+coroutine.wrap(OFPDM_fake_script)()
+local function GCDDEW_fake_script() -- Base.Dragify 
+	local script = Instance.new('LocalScript', Base)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local MainFrame = script.Parent
+	local RepositioningFrame = script.Parent:WaitForChild("TopBar")
+	
+	local Camera = workspace:WaitForChild("Camera")
+	
+	local DragMousePosition
+	local FramePosition
+	
+	local Draggable = false
+	
+	RepositioningFrame.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Draggable = true
+			DragMousePosition = Vector2.new(input.Position.X, input.Position.Y)
+			FramePosition = Vector2.new(MainFrame.Position.X.Scale, MainFrame.Position.Y.Scale)
+		end
+	end)
+	
+	RepositioningFrame.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Draggable = false
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if Draggable == true then
+			local NewPosition = FramePosition + ((Vector2.new(input.Position.X, input.Position.Y) - DragMousePosition) / Camera.ViewportSize)
+			MainFrame.Position = UDim2.new(NewPosition.X, 0, NewPosition.Y, 0)
+		end
+	end)
+end
+coroutine.wrap(GCDDEW_fake_script)()
+local function UOIY_fake_script() -- MinButton.LocalScript 
 	local script = Instance.new('LocalScript', MinButton)
 
 	local Hub = script.Parent.Parent.Base
@@ -1100,8 +1137,8 @@ local function BCXI_fake_script() -- MinButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(BCXI_fake_script)()
-local function USDJERQ_fake_script() -- MinButton.Dragify 
+coroutine.wrap(UOIY_fake_script)()
+local function OUPF_fake_script() -- MinButton.Dragify 
 	local script = Instance.new('LocalScript', MinButton)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1144,4 +1181,4 @@ local function USDJERQ_fake_script() -- MinButton.Dragify
 		end
 	end)
 end
-coroutine.wrap(USDJERQ_fake_script)()
+coroutine.wrap(OUPF_fake_script)()
