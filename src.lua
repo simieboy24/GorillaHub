@@ -10,102 +10,92 @@ local UIGradient = Instance.new("UIGradient")
 local Exit = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
 local Icon = Instance.new("ImageLabel")
-local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Title = Instance.new("TextLabel")
+local Logo = Instance.new("ImageLabel")
 local Min = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
 local Icon_2 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
-local Title = Instance.new("TextLabel")
-local Logo = Instance.new("ImageLabel")
-local Music = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local Icon_3 = Instance.new("ImageLabel")
-local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
 local Container = Instance.new("Frame")
 local AdminScripts = Instance.new("Frame")
-local InfiniteYield = Instance.new("ImageLabel")
-local UICorner_4 = Instance.new("UICorner")
+local UIGridLayout = Instance.new("UIGridLayout")
+local InfYield = Instance.new("ImageButton")
+local UICorner_3 = Instance.new("UICorner")
 local UIGradient_2 = Instance.new("UIGradient")
 local TextLabel = Instance.new("TextLabel")
-local UIGridLayout = Instance.new("UIGridLayout")
-local CMDX = Instance.new("ImageLabel")
-local UICorner_5 = Instance.new("UICorner")
+local CMDX = Instance.new("ImageButton")
 local UIGradient_3 = Instance.new("UIGradient")
 local TextLabel_2 = Instance.new("TextLabel")
-local Reviz = Instance.new("ImageLabel")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local Reviz = Instance.new("ImageButton")
+local UICorner_5 = Instance.new("UICorner")
 local UIGradient_4 = Instance.new("UIGradient")
 local TextLabel_3 = Instance.new("TextLabel")
-local Fates = Instance.new("ImageLabel")
-local UICorner_7 = Instance.new("UICorner")
+local Fates = Instance.new("ImageButton")
+local UICorner_6 = Instance.new("UICorner")
 local UIGradient_5 = Instance.new("UIGradient")
 local TextLabel_4 = Instance.new("TextLabel")
 local LocalScripts = Instance.new("Frame")
-local InfJump = Instance.new("ImageLabel")
-local UICorner_8 = Instance.new("UICorner")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
+local FECheck = Instance.new("ImageButton")
+local UICorner_7 = Instance.new("UICorner")
 local UIGradient_6 = Instance.new("UIGradient")
 local TextLabel_5 = Instance.new("TextLabel")
-local UIGridLayout_2 = Instance.new("UIGridLayout")
-local FECHECK = Instance.new("ImageLabel")
-local UICorner_9 = Instance.new("UICorner")
+local FreeCam = Instance.new("ImageButton")
+local UICorner_8 = Instance.new("UICorner")
 local UIGradient_7 = Instance.new("UIGradient")
 local TextLabel_6 = Instance.new("TextLabel")
-local FreeCam = Instance.new("ImageLabel")
-local UICorner_10 = Instance.new("UICorner")
+local Gravity = Instance.new("ImageButton")
+local UICorner_9 = Instance.new("UICorner")
 local UIGradient_8 = Instance.new("UIGradient")
 local TextLabel_7 = Instance.new("TextLabel")
-local NoArms = Instance.new("ImageLabel")
-local UICorner_11 = Instance.new("UICorner")
+local NoArms = Instance.new("ImageButton")
+local UICorner_10 = Instance.new("UICorner")
 local UIGradient_9 = Instance.new("UIGradient")
 local TextLabel_8 = Instance.new("TextLabel")
-local NoLegs = Instance.new("ImageLabel")
-local UICorner_12 = Instance.new("UICorner")
+local Nolegs = Instance.new("ImageButton")
+local UICorner_11 = Instance.new("UICorner")
 local UIGradient_10 = Instance.new("UIGradient")
 local TextLabel_9 = Instance.new("TextLabel")
-local Gravity = Instance.new("ImageLabel")
-local UICorner_13 = Instance.new("UICorner")
+local Sus = Instance.new("ImageButton")
+local UICorner_12 = Instance.new("UICorner")
 local UIGradient_11 = Instance.new("UIGradient")
 local TextLabel_10 = Instance.new("TextLabel")
-local Sus = Instance.new("ImageLabel")
-local UICorner_14 = Instance.new("UICorner")
+local ShooterScripts = Instance.new("Frame")
+local UIGridLayout_3 = Instance.new("UIGridLayout")
+local BlissFull = Instance.new("ImageButton")
+local UICorner_13 = Instance.new("UICorner")
 local UIGradient_12 = Instance.new("UIGradient")
 local TextLabel_11 = Instance.new("TextLabel")
-local ShooterScripts = Instance.new("Frame")
-local Blissfull = Instance.new("ImageLabel")
-local UICorner_15 = Instance.new("UICorner")
+local Parvus = Instance.new("ImageButton")
+local UICorner_14 = Instance.new("UICorner")
 local UIGradient_13 = Instance.new("UIGradient")
 local TextLabel_12 = Instance.new("TextLabel")
-local UIGridLayout_3 = Instance.new("UIGridLayout")
-local Unnamed = Instance.new("ImageLabel")
-local UICorner_16 = Instance.new("UICorner")
+local UnnamedESP = Instance.new("ImageButton")
+local UICorner_15 = Instance.new("UICorner")
 local UIGradient_14 = Instance.new("UIGradient")
 local TextLabel_13 = Instance.new("TextLabel")
-local Parvus = Instance.new("ImageLabel")
-local UICorner_17 = Instance.new("UICorner")
+local MiscScripts = Instance.new("Frame")
+local UIGridLayout_4 = Instance.new("UIGridLayout")
+local DarkHub = Instance.new("ImageButton")
+local UICorner_16 = Instance.new("UICorner")
 local UIGradient_15 = Instance.new("UIGradient")
 local TextLabel_14 = Instance.new("TextLabel")
-local MiscScripts = Instance.new("Frame")
-local VgHub = Instance.new("ImageLabel")
-local UICorner_18 = Instance.new("UICorner")
+local Evo = Instance.new("ImageButton")
+local UICorner_17 = Instance.new("UICorner")
 local UIGradient_16 = Instance.new("UIGradient")
 local TextLabel_15 = Instance.new("TextLabel")
-local UIGridLayout_4 = Instance.new("UIGridLayout")
-local DarkHub = Instance.new("ImageLabel")
-local UICorner_19 = Instance.new("UICorner")
+local Shlex = Instance.new("ImageButton")
+local UICorner_18 = Instance.new("UICorner")
 local UIGradient_17 = Instance.new("UIGradient")
 local TextLabel_16 = Instance.new("TextLabel")
-local Evo = Instance.new("ImageLabel")
-local UICorner_20 = Instance.new("UICorner")
+local Vghub = Instance.new("ImageButton")
+local UICorner_19 = Instance.new("UICorner")
 local UIGradient_18 = Instance.new("UIGradient")
 local TextLabel_17 = Instance.new("TextLabel")
-local Shlex = Instance.new("ImageLabel")
-local UICorner_21 = Instance.new("UICorner")
+local VynixusBABFT = Instance.new("ImageButton")
+local UICorner_20 = Instance.new("UICorner")
 local UIGradient_19 = Instance.new("UIGradient")
 local TextLabel_18 = Instance.new("TextLabel")
-local VynixusBABFT = Instance.new("ImageLabel")
-local UICorner_22 = Instance.new("UICorner")
-local UIGradient_20 = Instance.new("UIGradient")
-local TextLabel_19 = Instance.new("TextLabel")
 local Credits = Instance.new("Frame")
 local SD = Instance.new("TextLabel")
 local IDS = Instance.new("TextLabel")
@@ -162,35 +152,11 @@ UICorner.Parent = Exit
 Icon.Name = "Icon"
 Icon.Parent = Exit
 Icon.BackgroundTransparency = 1.000
+Icon.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Icon.BorderSizePixel = 0
 Icon.Position = UDim2.new(0.114, 0, 0.100000001, 0)
 Icon.Size = UDim2.new(0.823423088, 0, 0.823423684, 0)
 Icon.Image = "rbxassetid://7072725342"
-
-UIAspectRatioConstraint.Parent = Icon
-
-Min.Name = "Min"
-Min.Parent = TopBar
-Min.BackgroundColor3 = Color3.fromRGB(255, 142, 29)
-Min.BorderSizePixel = 0
-Min.Position = UDim2.new(0.898000002, 0, 0.160999998, 0)
-Min.Size = UDim2.new(0, 21, 0, 21)
-Min.Font = Enum.Font.SourceSans
-Min.Text = ""
-Min.TextColor3 = Color3.fromRGB(255, 255, 255)
-Min.TextSize = 14.000
-
-UICorner_2.CornerRadius = UDim.new(0, 2)
-UICorner_2.Parent = Min
-
-Icon_2.Name = "Icon"
-Icon_2.Parent = Min
-Icon_2.BackgroundTransparency = 1.000
-Icon_2.Position = UDim2.new(0.0815255344, 0, 0.0718122125, 0)
-Icon_2.Size = UDim2.new(0.836757123, 0, 0.836757123, 0)
-Icon_2.Image = "rbxassetid://7072719240"
-
-UIAspectRatioConstraint_2.Parent = Icon_2
 
 Title.Name = "Title"
 Title.Parent = TopBar
@@ -213,29 +179,28 @@ Logo.Position = UDim2.new(0.0158102773, 0, 0.125, 0)
 Logo.Size = UDim2.new(0, 21, 0, 23)
 Logo.Image = "rbxassetid://9717269783"
 
-Music.Name = "Music"
-Music.Parent = TopBar
-Music.BackgroundColor3 = Color3.fromRGB(80, 255, 106)
-Music.BorderSizePixel = 0
-Music.Position = UDim2.new(0.850000024, 0, 0.160999998, 0)
-Music.Size = UDim2.new(0, 21, 0, 21)
-Music.Font = Enum.Font.SourceSans
-Music.Text = ""
-Music.TextColor3 = Color3.fromRGB(255, 255, 255)
-Music.TextSize = 14.000
+Min.Name = "Min"
+Min.Parent = TopBar
+Min.BackgroundColor3 = Color3.fromRGB(255, 142, 29)
+Min.BorderSizePixel = 0
+Min.Position = UDim2.new(0.898000002, 0, 0.160999998, 0)
+Min.Size = UDim2.new(0, 21, 0, 21)
+Min.Font = Enum.Font.SourceSans
+Min.Text = ""
+Min.TextColor3 = Color3.fromRGB(255, 255, 255)
+Min.TextSize = 14.000
 
-UICorner_3.CornerRadius = UDim.new(0, 2)
-UICorner_3.Parent = Music
+UICorner_2.CornerRadius = UDim.new(0, 2)
+UICorner_2.Parent = Min
 
-Icon_3.Name = "Icon"
-Icon_3.Parent = Music
-Icon_3.BackgroundTransparency = 1.000
-Icon_3.BorderSizePixel = 0
-Icon_3.Position = UDim2.new(0.0890000015, 0, 0.0920000002, 0)
-Icon_3.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
-Icon_3.Image = "rbxassetid://7072719671"
-
-UIAspectRatioConstraint_3.Parent = Icon_3
+Icon_2.Name = "Icon"
+Icon_2.Parent = Min
+Icon_2.BackgroundTransparency = 1.000
+Icon_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Icon_2.BorderSizePixel = 0
+Icon_2.Position = UDim2.new(0.0820000023, 0, 0.0719999969, 0)
+Icon_2.Size = UDim2.new(0.823423088, 0, 0.823423684, 0)
+Icon_2.Image = "rbxassetid://7072719240"
 
 Container.Name = "Container"
 Container.Parent = Base
@@ -252,25 +217,28 @@ AdminScripts.BorderSizePixel = 0
 AdminScripts.Position = UDim2.new(0, 0, 0.1037037, 0)
 AdminScripts.Size = UDim2.new(0, 489, 0, 225)
 
-InfiniteYield.Name = "InfiniteYield"
-InfiniteYield.Parent = AdminScripts
-InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-InfiniteYield.Position = UDim2.new(0, 0, 0.0444444418, 0)
-InfiniteYield.Size = UDim2.new(0, 62, 0, 68)
-InfiniteYield.Image = "rbxassetid://9722482545"
-InfiniteYield.ImageColor3 = Color3.fromRGB(254, 255, 142)
-InfiniteYield.ScaleType = Enum.ScaleType.Fit
-InfiniteYield.MouseButton1Down:Connect(function()
+UIGridLayout.Parent = AdminScripts
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 8, 0, 30)
+UIGridLayout.CellSize = UDim2.new(0, 90, 0, 90)
+
+InfYield.Name = "InfYield"
+InfYield.Parent = AdminScripts
+InfYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfYield.Size = UDim2.new(0, 100, 0, 100)
+InfYield.Image = "rbxassetid://9722482545"
+InfYield.ScaleType = Enum.ScaleType.Fit
+InfYield.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
-UICorner_4.CornerRadius = UDim.new(0, 5)
-UICorner_4.Parent = InfiniteYield
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = InfYield
 
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 93)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
-UIGradient_2.Parent = InfiniteYield
+UIGradient_2.Parent = InfYield
 
-TextLabel.Parent = InfiniteYield
+TextLabel.Parent = InfYield
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.BorderSizePixel = 0
@@ -281,26 +249,15 @@ TextLabel.Text = "Infinite Yield"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 12.000
 
-UIGridLayout.Parent = AdminScripts
-UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout.CellPadding = UDim2.new(0, 8, 0, 30)
-UIGridLayout.CellSize = UDim2.new(0, 90, 0, 90)
-
 CMDX.Name = "CMDX"
 CMDX.Parent = AdminScripts
 CMDX.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-CMDX.Position = UDim2.new(0, 0, 0.0444444418, 0)
-CMDX.Size = UDim2.new(0, 62, 0, 68)
+CMDX.Size = UDim2.new(0, 100, 0, 100)
 CMDX.Image = "rbxassetid://9722577796"
-CMDX.ImageColor3 = Color3.fromRGB(254, 255, 142)
 CMDX.ScaleType = Enum.ScaleType.Fit
 CMDX.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
 end)
-
-
-UICorner_5.CornerRadius = UDim.new(0, 5)
-UICorner_5.Parent = CMDX
 
 UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 93)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
 UIGradient_3.Parent = CMDX
@@ -316,20 +273,21 @@ TextLabel_2.Text = "CMD-X"
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 12.000
 
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = CMDX
+
 Reviz.Name = "Reviz"
 Reviz.Parent = AdminScripts
 Reviz.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Reviz.Position = UDim2.new(0, 0, 0.0444444418, 0)
-Reviz.Size = UDim2.new(0, 62, 0, 68)
+Reviz.Size = UDim2.new(0, 100, 0, 100)
 Reviz.Image = "rbxassetid://9722744993"
-Reviz.ImageColor3 = Color3.fromRGB(254, 255, 142)
 Reviz.ScaleType = Enum.ScaleType.Fit
 Reviz.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet(('https://pastebin.com/raw/Caniwq2N'),true))()
 end)
 
-UICorner_6.CornerRadius = UDim.new(0, 5)
-UICorner_6.Parent = Reviz
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = Reviz
 
 UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 93)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
 UIGradient_4.Parent = Reviz
@@ -348,17 +306,15 @@ TextLabel_3.TextSize = 12.000
 Fates.Name = "Fates"
 Fates.Parent = AdminScripts
 Fates.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Fates.Position = UDim2.new(0, 0, 0.0444444418, 0)
-Fates.Size = UDim2.new(0, 62, 0, 68)
+Fates.Size = UDim2.new(0, 100, 0, 100)
 Fates.Image = "rbxassetid://9722808174"
-Fates.ImageColor3 = Color3.fromRGB(254, 255, 142)
 Fates.ScaleType = Enum.ScaleType.Crop
 Fates.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 end)
 
-UICorner_7.CornerRadius = UDim.new(0, 5)
-UICorner_7.Parent = Fates
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = Fates
 
 UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 93)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
 UIGradient_5.Parent = Fates
@@ -383,112 +339,104 @@ LocalScripts.Position = UDim2.new(0, 0, 0.1037037, 0)
 LocalScripts.Size = UDim2.new(0, 489, 0, 225)
 LocalScripts.Visible = false
 
-InfJump.Name = "InfJump"
-InfJump.Parent = LocalScripts
-InfJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-InfJump.Position = UDim2.new(0, 0, 0.0444444418, 0)
-InfJump.Size = UDim2.new(0, 62, 0, 68)
-InfJump.Image = "rbxassetid://9722933997"
-InfJump.ImageColor3 = Color3.fromRGB(254, 255, 142)
-InfJump.ScaleType = Enum.ScaleType.Crop
-InfJump.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/pDy1Ru0J"))();
+UIGridLayout_2.Parent = LocalScripts
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.CellPadding = UDim2.new(0, 8, 0, 30)
+UIGridLayout_2.CellSize = UDim2.new(0, 90, 0, 90)
+
+FECheck.Name = "FECheck"
+FECheck.Parent = LocalScripts
+FECheck.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FECheck.Size = UDim2.new(0, 100, 0, 100)
+FECheck.Image = "rbxassetid://9722934304"
+FECheck.ScaleType = Enum.ScaleType.Crop
+FECheck.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/NU7Ub2NV"))();
 end)
 
-UICorner_8.CornerRadius = UDim.new(0, 5)
-UICorner_8.Parent = InfJump
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = FECheck
 
 UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 105, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
-UIGradient_6.Parent = InfJump
+UIGradient_6.Parent = FECheck
 
-TextLabel_5.Parent = InfJump
+TextLabel_5.Parent = FECheck
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.BackgroundTransparency = 1.000
 TextLabel_5.BorderSizePixel = 0
 TextLabel_5.Position = UDim2.new(0, 0, 1.06666672, 0)
 TextLabel_5.Size = UDim2.new(0, 90, 0, 18)
 TextLabel_5.Font = Enum.Font.GothamSemibold
-TextLabel_5.Text = "Infinite Jump"
+TextLabel_5.Text = "FE Check"
 TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.TextSize = 12.000
 
-UIGridLayout_2.Parent = LocalScripts
-UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_2.CellPadding = UDim2.new(0, 8, 0, 30)
-UIGridLayout_2.CellSize = UDim2.new(0, 90, 0, 90)
-
-FECHECK.Name = "FECHECK"
-FECHECK.Parent = LocalScripts
-FECHECK.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-FECHECK.Position = UDim2.new(0, 0, 0.0444444418, 0)
-FECHECK.Size = UDim2.new(0, 62, 0, 68)
-FECHECK.Image = "rbxassetid://9722934304"
-FECHECK.ImageColor3 = Color3.fromRGB(254, 255, 142)
-FECHECK.ScaleType = Enum.ScaleType.Crop
-FECHECK.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/NU7Ub2NV"))();
+FreeCam.Name = "FreeCam"
+FreeCam.Parent = LocalScripts
+FreeCam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FreeCam.Size = UDim2.new(0, 100, 0, 100)
+FreeCam.Image = "rbxassetid://9722934641"
+FreeCam.ScaleType = Enum.ScaleType.Crop
+FreeCam.MouseButton1Down:Connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint:Destroy()
 end)
 
-UICorner_9.CornerRadius = UDim.new(0, 5)
-UICorner_9.Parent = FECHECK
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = FreeCam
 
 UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 105, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
-UIGradient_7.Parent = FECHECK
+UIGradient_7.Parent = FreeCam
 
-TextLabel_6.Parent = FECHECK
+TextLabel_6.Parent = FreeCam
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_6.BackgroundTransparency = 1.000
 TextLabel_6.BorderSizePixel = 0
 TextLabel_6.Position = UDim2.new(0, 0, 1.06666672, 0)
 TextLabel_6.Size = UDim2.new(0, 90, 0, 18)
 TextLabel_6.Font = Enum.Font.GothamSemibold
-TextLabel_6.Text = "FE Check"
+TextLabel_6.Text = "Free Cam"
 TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_6.TextSize = 12.000
 
-FreeCam.Name = "FreeCam"
-FreeCam.Parent = LocalScripts
-FreeCam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-FreeCam.Position = UDim2.new(0, 0, 0.0444444418, 0)
-FreeCam.Size = UDim2.new(0, 62, 0, 68)
-FreeCam.Image = "rbxassetid://9722934641"
-FreeCam.ImageColor3 = Color3.fromRGB(254, 255, 142)
-FreeCam.ScaleType = Enum.ScaleType.Crop
-FreeCam.MouseButton1Down:Connect(function()
-	game.Players.LocalPlayer.Character.HumanoidRootPart.RootJoint:Destroy()
+Gravity.Name = "Gravity"
+Gravity.Parent = LocalScripts
+Gravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Gravity.Size = UDim2.new(0, 100, 0, 100)
+Gravity.Image = "rbxassetid://9722934479"
+Gravity.ScaleType = Enum.ScaleType.Crop
+Gravity.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ywB7w48x"))();
 end)
 
-UICorner_10.CornerRadius = UDim.new(0, 5)
-UICorner_10.Parent = FreeCam
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = Gravity
 
 UIGradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 105, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
-UIGradient_8.Parent = FreeCam
+UIGradient_8.Parent = Gravity
 
-TextLabel_7.Parent = FreeCam
+TextLabel_7.Parent = Gravity
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_7.BackgroundTransparency = 1.000
 TextLabel_7.BorderSizePixel = 0
 TextLabel_7.Position = UDim2.new(0, 0, 1.06666672, 0)
 TextLabel_7.Size = UDim2.new(0, 90, 0, 18)
 TextLabel_7.Font = Enum.Font.GothamSemibold
-TextLabel_7.Text = "Free Cam"
+TextLabel_7.Text = "Gravity"
 TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_7.TextSize = 12.000
 
 NoArms.Name = "NoArms"
 NoArms.Parent = LocalScripts
 NoArms.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NoArms.Position = UDim2.new(0, 0, 0.0444444418, 0)
-NoArms.Size = UDim2.new(0, 62, 0, 68)
+NoArms.Size = UDim2.new(0, 100, 0, 100)
 NoArms.Image = "rbxassetid://9722940552"
-NoArms.ImageColor3 = Color3.fromRGB(254, 255, 142)
 NoArms.ScaleType = Enum.ScaleType.Crop
 NoArms.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/BKF9Hq69"))();
 end)
 
-UICorner_11.CornerRadius = UDim.new(0, 5)
-UICorner_11.Parent = NoArms
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = NoArms
 
 UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 105, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
 UIGradient_9.Parent = NoArms
@@ -504,25 +452,23 @@ TextLabel_8.Text = "No Arms"
 TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_8.TextSize = 12.000
 
-NoLegs.Name = "NoLegs"
-NoLegs.Parent = LocalScripts
-NoLegs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-NoLegs.Position = UDim2.new(0, 0, 0.0444444418, 0)
-NoLegs.Size = UDim2.new(0, 62, 0, 68)
-NoLegs.Image = "rbxassetid://9722990342"
-NoLegs.ImageColor3 = Color3.fromRGB(254, 255, 142)
-NoLegs.ScaleType = Enum.ScaleType.Crop
-NoLegs.MouseButton1Down:Connect(function()
+Nolegs.Name = "No legs"
+Nolegs.Parent = LocalScripts
+Nolegs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nolegs.Size = UDim2.new(0, 100, 0, 100)
+Nolegs.Image = "rbxassetid://9722990342"
+Nolegs.ScaleType = Enum.ScaleType.Crop
+Nolegs.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://pastebin.com/raw/ywB7w48x"))();
 end)
 
-UICorner_12.CornerRadius = UDim.new(0, 5)
-UICorner_12.Parent = NoLegs
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = Nolegs
 
 UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 105, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
-UIGradient_10.Parent = NoLegs
+UIGradient_10.Parent = Nolegs
 
-TextLabel_9.Parent = NoLegs
+TextLabel_9.Parent = Nolegs
 TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_9.BackgroundTransparency = 1.000
 TextLabel_9.BorderSizePixel = 0
@@ -533,60 +479,29 @@ TextLabel_9.Text = "No Legs"
 TextLabel_9.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_9.TextSize = 12.000
 
-Gravity.Name = "Gravity"
-Gravity.Parent = LocalScripts
-Gravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Gravity.Position = UDim2.new(0, 0, 0.0444444418, 0)
-Gravity.Size = UDim2.new(0, 62, 0, 68)
-Gravity.Image = "rbxassetid://9722934479"
-Gravity.ImageColor3 = Color3.fromRGB(254, 255, 142)
-Gravity.ScaleType = Enum.ScaleType.Crop
-Gravity.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/ywB7w48x"))();
-end)
+Sus.Name = "Sus"
+Sus.Parent = LocalScripts
+Sus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Sus.Size = UDim2.new(0, 100, 0, 100)
+Sus.Image = "rbxassetid://9723032168"
+Sus.ScaleType = Enum.ScaleType.Crop
 
-UICorner_13.CornerRadius = UDim.new(0, 5)
-UICorner_13.Parent = Gravity
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = Sus
 
 UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 105, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
-UIGradient_11.Parent = Gravity
+UIGradient_11.Parent = Sus
 
-TextLabel_10.Parent = Gravity
+TextLabel_10.Parent = Sus
 TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_10.BackgroundTransparency = 1.000
 TextLabel_10.BorderSizePixel = 0
 TextLabel_10.Position = UDim2.new(0, 0, 1.06666672, 0)
 TextLabel_10.Size = UDim2.new(0, 90, 0, 18)
 TextLabel_10.Font = Enum.Font.GothamSemibold
-TextLabel_10.Text = "Gravity"
+TextLabel_10.Text = "Sus"
 TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_10.TextSize = 12.000
-
-Sus.Name = "Sus"
-Sus.Parent = LocalScripts
-Sus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Sus.Position = UDim2.new(0, 0, 0.0444444418, 0)
-Sus.Size = UDim2.new(0, 62, 0, 68)
-Sus.Image = "rbxassetid://9723032168"
-Sus.ImageColor3 = Color3.fromRGB(254, 255, 142)
-Sus.ScaleType = Enum.ScaleType.Crop
-
-UICorner_14.CornerRadius = UDim.new(0, 5)
-UICorner_14.Parent = Sus
-
-UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(200, 105, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(226, 134, 41))}
-UIGradient_12.Parent = Sus
-
-TextLabel_11.Parent = Sus
-TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.BackgroundTransparency = 1.000
-TextLabel_11.BorderSizePixel = 0
-TextLabel_11.Position = UDim2.new(0, 0, 1.06666672, 0)
-TextLabel_11.Size = UDim2.new(0, 90, 0, 18)
-TextLabel_11.Font = Enum.Font.GothamSemibold
-TextLabel_11.Text = "Sus"
-TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_11.TextSize = 12.000
 
 ShooterScripts.Name = "Shooter Scripts"
 ShooterScripts.Parent = Container
@@ -597,59 +512,80 @@ ShooterScripts.Position = UDim2.new(0, 0, 0.1037037, 0)
 ShooterScripts.Size = UDim2.new(0, 489, 0, 225)
 ShooterScripts.Visible = false
 
-Blissfull.Name = "Blissfull"
-Blissfull.Parent = ShooterScripts
-Blissfull.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Blissfull.Position = UDim2.new(0, 0, 0.0444444418, 0)
-Blissfull.Size = UDim2.new(0, 62, 0, 68)
-Blissfull.Image = "rbxassetid://9725347857"
-Blissfull.ImageColor3 = Color3.fromRGB(254, 255, 142)
-Blissfull.ScaleType = Enum.ScaleType.Fit
-Blissfull.MouseButton1Down:Connect(function()
+UIGridLayout_3.Parent = ShooterScripts
+UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_3.CellPadding = UDim2.new(0, 8, 0, 30)
+UIGridLayout_3.CellSize = UDim2.new(0, 90, 0, 90)
+
+BlissFull.Name = "BlissFull"
+BlissFull.Parent = ShooterScripts
+BlissFull.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BlissFull.Size = UDim2.new(0, 100, 0, 100)
+BlissFull.Image = "rbxassetid://9725347857"
+BlissFull.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/UNIVERSAL.lua"))()
 end)
 
-UICorner_15.CornerRadius = UDim.new(0, 5)
-UICorner_15.Parent = Blissfull
+UICorner_13.CornerRadius = UDim.new(0, 5)
+UICorner_13.Parent = BlissFull
+
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(84, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(12, 93, 198))}
+UIGradient_12.Parent = BlissFull
+
+TextLabel_11.Parent = BlissFull
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0, 0, 1.06666672, 0)
+TextLabel_11.Size = UDim2.new(0, 90, 0, 18)
+TextLabel_11.Font = Enum.Font.GothamSemibold
+TextLabel_11.Text = "Blissfull's Aimbot"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextSize = 12.000
+
+Parvus.Name = "Parvus"
+Parvus.Parent = ShooterScripts
+Parvus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Parvus.Size = UDim2.new(0, 100, 0, 100)
+Parvus.Image = "rbxassetid://9733457312"
+Parvus.ScaleType = Enum.ScaleType.Fit
+Parvus.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Parvus/main/Loader.lua"))();
+end)
+
+UICorner_14.CornerRadius = UDim.new(0, 5)
+UICorner_14.Parent = Parvus
 
 UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(84, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(12, 93, 198))}
-UIGradient_13.Parent = Blissfull
+UIGradient_13.Parent = Parvus
 
-TextLabel_12.Parent = Blissfull
+TextLabel_12.Parent = Parvus
 TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.BackgroundTransparency = 1.000
 TextLabel_12.BorderSizePixel = 0
 TextLabel_12.Position = UDim2.new(0, 0, 1.06666672, 0)
 TextLabel_12.Size = UDim2.new(0, 90, 0, 18)
 TextLabel_12.Font = Enum.Font.GothamSemibold
-TextLabel_12.Text = "Blissfull's Aimbot"
+TextLabel_12.Text = "Parvus Hub"
 TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.TextSize = 12.000
 
-UIGridLayout_3.Parent = ShooterScripts
-UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_3.CellPadding = UDim2.new(0, 8, 0, 30)
-UIGridLayout_3.CellSize = UDim2.new(0, 90, 0, 90)
-
-Unnamed.Name = "Unnamed"
-Unnamed.Parent = ShooterScripts
-Unnamed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Unnamed.Position = UDim2.new(0, 0, 0.0444444418, 0)
-Unnamed.Size = UDim2.new(0, 62, 0, 68)
-Unnamed.Image = "rbxassetid://9725355006"
-Unnamed.ImageColor3 = Color3.fromRGB(254, 255, 142)
-Unnamed.ScaleType = Enum.ScaleType.Fit
-Unnamed.MouseButton1Down:Connect(function()
+UnnamedESP.Name = "UnnamedESP"
+UnnamedESP.Parent = ShooterScripts
+UnnamedESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+UnnamedESP.Size = UDim2.new(0, 100, 0, 100)
+UnnamedESP.Image = "rbxassetid://9725355006"
+UnnamedESP.MouseButton1Down:Connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua"))();
 end)
 
-UICorner_16.CornerRadius = UDim.new(0, 5)
-UICorner_16.Parent = Unnamed
+UICorner_15.CornerRadius = UDim.new(0, 5)
+UICorner_15.Parent = UnnamedESP
 
 UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(84, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(12, 93, 198))}
-UIGradient_14.Parent = Unnamed
+UIGradient_14.Parent = UnnamedESP
 
-TextLabel_13.Parent = Unnamed
+TextLabel_13.Parent = UnnamedESP
 TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.BackgroundTransparency = 1.000
 TextLabel_13.BorderSizePixel = 0
@@ -660,35 +596,6 @@ TextLabel_13.Text = "Unnamed ESP"
 TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.TextSize = 12.000
 
-Parvus.Name = "Parvus"
-Parvus.Parent = ShooterScripts
-Parvus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Parvus.Position = UDim2.new(0, 0, 0.0444444418, 0)
-Parvus.Size = UDim2.new(0, 62, 0, 68)
-Parvus.Image = "rbxassetid://9733457312"
-Parvus.ImageColor3 = Color3.fromRGB(254, 255, 142)
-Parvus.ScaleType = Enum.ScaleType.Fit
-Parvus.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/AlexR32/Parvus/main/Loader.lua"))();
-end)
-
-UICorner_17.CornerRadius = UDim.new(0, 5)
-UICorner_17.Parent = Parvus
-
-UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(84, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(12, 93, 198))}
-UIGradient_15.Parent = Parvus
-
-TextLabel_14.Parent = Parvus
-TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.BackgroundTransparency = 1.000
-TextLabel_14.BorderSizePixel = 0
-TextLabel_14.Position = UDim2.new(0, 0, 1.06666672, 0)
-TextLabel_14.Size = UDim2.new(0, 90, 0, 18)
-TextLabel_14.Font = Enum.Font.GothamSemibold
-TextLabel_14.Text = "Parvus Hub"
-TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_14.TextSize = 12.000
-
 MiscScripts.Name = "Misc Scripts"
 MiscScripts.Parent = Container
 MiscScripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -698,155 +605,141 @@ MiscScripts.Position = UDim2.new(0, 0, 0.1037037, 0)
 MiscScripts.Size = UDim2.new(0, 489, 0, 225)
 MiscScripts.Visible = false
 
-VgHub.Name = "VgHub"
-VgHub.Parent = MiscScripts
-VgHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-VgHub.Position = UDim2.new(0, 0, 0.0444444418, 0)
-VgHub.Size = UDim2.new(0, 62, 0, 68)
-VgHub.Image = "rbxassetid://9725228020"
-VgHub.ImageColor3 = Color3.fromRGB(254, 255, 142)
-VgHub.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+UIGridLayout_4.Parent = MiscScripts
+UIGridLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_4.CellPadding = UDim2.new(0, 8, 0, 30)
+UIGridLayout_4.CellSize = UDim2.new(0, 90, 0, 90)
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = MiscScripts
+DarkHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DarkHub.Size = UDim2.new(0, 100, 0, 100)
+DarkHub.Image = "rbxassetid://9725304421"
+DarkHub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 end)
 
-UICorner_18.CornerRadius = UDim.new(0, 5)
-UICorner_18.Parent = VgHub
+UICorner_16.CornerRadius = UDim.new(0, 5)
+UICorner_16.Parent = DarkHub
+
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 78, 238)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(1, 21, 198))}
+UIGradient_15.Parent = DarkHub
+
+TextLabel_14.Parent = DarkHub
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0, 0, 1.06666672, 0)
+TextLabel_14.Size = UDim2.new(0, 90, 0, 18)
+TextLabel_14.Font = Enum.Font.GothamSemibold
+TextLabel_14.Text = "Darkhub"
+TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.TextSize = 12.000
+
+Evo.Name = "Evo"
+Evo.Parent = MiscScripts
+Evo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Evo.Size = UDim2.new(0, 100, 0, 100)
+Evo.Image = "rbxassetid://9725334708"
+Evo.ScaleType = Enum.ScaleType.Fit
+Evo.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+end)
+
+UICorner_17.CornerRadius = UDim.new(0, 5)
+UICorner_17.Parent = Evo
 
 UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 78, 238)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(1, 21, 198))}
-UIGradient_16.Parent = VgHub
+UIGradient_16.Parent = Evo
 
-TextLabel_15.Parent = VgHub
+TextLabel_15.Parent = Evo
 TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_15.BackgroundTransparency = 1.000
 TextLabel_15.BorderSizePixel = 0
 TextLabel_15.Position = UDim2.new(0, 0, 1.06666672, 0)
 TextLabel_15.Size = UDim2.new(0, 90, 0, 18)
 TextLabel_15.Font = Enum.Font.GothamSemibold
-TextLabel_15.Text = "V.G Hub"
+TextLabel_15.Text = "Evo V3"
 TextLabel_15.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_15.TextSize = 12.000
 
-UIGridLayout_4.Parent = MiscScripts
-UIGridLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_4.CellPadding = UDim2.new(0, 8, 0, 15)
-UIGridLayout_4.CellSize = UDim2.new(0, 90, 0, 90)
-
-DarkHub.Name = "DarkHub"
-DarkHub.Parent = MiscScripts
-DarkHub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DarkHub.Position = UDim2.new(0, 0, 0.0444444418, 0)
-DarkHub.Size = UDim2.new(0, 62, 0, 68)
-DarkHub.Image = "rbxassetid://9725304421"
-DarkHub.ImageColor3 = Color3.fromRGB(254, 255, 142)
-DarkHub.ScaleType = Enum.ScaleType.Crop
-DarkHub.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+Shlex.Name = "Shlex"
+Shlex.Parent = MiscScripts
+Shlex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Shlex.Size = UDim2.new(0, 100, 0, 100)
+Shlex.Image = "rbxassetid://9725410086"
+Shlex.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://shlex.dev/release/domainx/latest.lua',true))()
 end)
 
-UICorner_19.CornerRadius = UDim.new(0, 5)
-UICorner_19.Parent = DarkHub
+UICorner_18.CornerRadius = UDim.new(0, 5)
+UICorner_18.Parent = Shlex
 
 UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 78, 238)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(1, 21, 198))}
-UIGradient_17.Parent = DarkHub
+UIGradient_17.Parent = Shlex
 
-TextLabel_16.Parent = DarkHub
+TextLabel_16.Parent = Shlex
 TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_16.BackgroundTransparency = 1.000
 TextLabel_16.BorderSizePixel = 0
 TextLabel_16.Position = UDim2.new(0, 0, 1.06666672, 0)
 TextLabel_16.Size = UDim2.new(0, 90, 0, 18)
 TextLabel_16.Font = Enum.Font.GothamSemibold
-TextLabel_16.Text = "Darkhub"
+TextLabel_16.Text = "Shlex Hub"
 TextLabel_16.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_16.TextSize = 12.000
 
-Evo.Name = "Evo"
-Evo.Parent = MiscScripts
-Evo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Evo.Position = UDim2.new(0, 0, 0.0444444418, 0)
-Evo.Size = UDim2.new(0, 62, 0, 68)
-Evo.Image = "rbxassetid://9725334708"
-Evo.ImageColor3 = Color3.fromRGB(254, 255, 142)
-Evo.ScaleType = Enum.ScaleType.Crop
-Evo.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://projectevo.xyz/script/loader.lua"))()
+Vghub.Name = "Vghub"
+Vghub.Parent = MiscScripts
+Vghub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Vghub.Size = UDim2.new(0, 100, 0, 100)
+Vghub.Image = "rbxassetid://9725228020"
+Vghub.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 end)
 
-UICorner_20.CornerRadius = UDim.new(0, 5)
-UICorner_20.Parent = Evo
+UICorner_19.CornerRadius = UDim.new(0, 5)
+UICorner_19.Parent = Vghub
 
 UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 78, 238)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(1, 21, 198))}
-UIGradient_18.Parent = Evo
+UIGradient_18.Parent = Vghub
 
-TextLabel_17.Parent = Evo
+TextLabel_17.Parent = Vghub
 TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_17.BackgroundTransparency = 1.000
 TextLabel_17.BorderSizePixel = 0
 TextLabel_17.Position = UDim2.new(0, 0, 1.06666672, 0)
 TextLabel_17.Size = UDim2.new(0, 90, 0, 18)
 TextLabel_17.Font = Enum.Font.GothamSemibold
-TextLabel_17.Text = "Evo V3"
+TextLabel_17.Text = "V.G Hub"
 TextLabel_17.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_17.TextSize = 12.000
 
-
-Shlex.Name = "Shlex"
-Shlex.Parent = MiscScripts
-Shlex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Shlex.Position = UDim2.new(0, 0, 0.0444444418, 0)
-Shlex.Size = UDim2.new(0, 62, 0, 68)
-Shlex.Image = "rbxassetid://9725410086"
-Shlex.ImageColor3 = Color3.fromRGB(254, 255, 142)
-Shlex.ScaleType = Enum.ScaleType.Crop
-Shlex.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet('https://shlex.dev/release/domainx/latest.lua',true))()
+VynixusBABFT.Name = "VynixusBABFT"
+VynixusBABFT.Parent = MiscScripts
+VynixusBABFT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VynixusBABFT.Size = UDim2.new(0, 100, 0, 100)
+VynixusBABFT.Image = "rbxassetid://9733294592"
+VynixusBABFT.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
 end)
 
-UICorner_21.CornerRadius = UDim.new(0, 5)
-UICorner_21.Parent = Shlex
+UICorner_20.CornerRadius = UDim.new(0, 5)
+UICorner_20.Parent = VynixusBABFT
 
 UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 78, 238)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(1, 21, 198))}
-UIGradient_19.Parent = Shlex
+UIGradient_19.Parent = VynixusBABFT
 
-TextLabel_18.Parent = Shlex
+TextLabel_18.Parent = VynixusBABFT
 TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_18.BackgroundTransparency = 1.000
 TextLabel_18.BorderSizePixel = 0
 TextLabel_18.Position = UDim2.new(0, 0, 1.06666672, 0)
 TextLabel_18.Size = UDim2.new(0, 90, 0, 18)
 TextLabel_18.Font = Enum.Font.GothamSemibold
-TextLabel_18.Text = "Shlex Hub"
+TextLabel_18.Text = "Vynixus [BABFT]"
 TextLabel_18.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_18.TextSize = 12.000
-
-VynixusBABFT.Name = "VynixusBABFT"
-VynixusBABFT.Parent = MiscScripts
-VynixusBABFT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-VynixusBABFT.Position = UDim2.new(0, 0, 0.0444444418, 0)
-VynixusBABFT.Size = UDim2.new(0, 62, 0, 68)
-VynixusBABFT.Image = "rbxassetid://9733294592"
-VynixusBABFT.ImageColor3 = Color3.fromRGB(254, 255, 142)
-VynixusBABFT.ScaleType = Enum.ScaleType.Fit
-VynixusBABFT.MouseButton1Down:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
-end)
-
-UICorner_22.CornerRadius = UDim.new(0, 5)
-UICorner_22.Parent = VynixusBABFT
-
-UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 78, 238)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(1, 21, 198))}
-UIGradient_20.Parent = VynixusBABFT
-
-TextLabel_19.Parent = VynixusBABFT
-TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_19.BackgroundTransparency = 1.000
-TextLabel_19.BorderSizePixel = 0
-TextLabel_19.Position = UDim2.new(0, 0, 1.06666672, 0)
-TextLabel_19.Size = UDim2.new(0, 90, 0, 18)
-TextLabel_19.Font = Enum.Font.GothamSemibold
-TextLabel_19.Text = "Vynixus [BABFT]"
-TextLabel_19.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_19.TextSize = 12.000
 
 Credits.Name = "Credits"
 Credits.Parent = Container
@@ -985,7 +878,7 @@ Page5_2.TextWrapped = true
 MinButton.Name = "MinButton"
 MinButton.Parent = GorillaHub
 MinButton.BackgroundColor3 = Color3.fromRGB(22, 21, 30)
-MinButton.Position = UDim2.new(0.467000008, 0, 0.95599997, 1)
+MinButton.Position = UDim2.new(0.91543752, 0, 0.941185176, 1)
 MinButton.Size = UDim2.new(0, 117, 0, 32)
 MinButton.Visible = false
 MinButton.Font = Enum.Font.SourceSansBold
@@ -995,11 +888,11 @@ MinButton.TextSize = 14.000
 
 -- Scripts:
 
-local function ADEWJI_fake_script() -- Exit.LocalScript 
+local function PBILRO_fake_script() -- Exit.LocalScript 
 	local script = Instance.new('LocalScript', Exit)
 
 	local Hub = script.Parent.Parent.Parent.Parent.Base
-	local GUI = script.Parent.Parent.Parent.Parent
+	local GUI = {script.Parent.Parent.Parent, script.Parent.Parent.Parent.Parent.MinButton}
 	local CloseSize = UDim2.new(0, 0,0, 0)
 	local ClosePos = UDim2.new(0.5, 0,0.5, 0)
 	
@@ -1007,11 +900,12 @@ local function ADEWJI_fake_script() -- Exit.LocalScript
 		wait(0.2)
 		Hub:TweenSizeAndPosition(CloseSize, ClosePos)
 		wait(1)
-		GUI:Destroy()
+		GUI[1]:Destroy()
+		GUI[2]:Destroy()
 	end)
 end
-coroutine.wrap(ADEWJI_fake_script)()
-local function MMKZFX_fake_script() -- Min.LocalScript 
+coroutine.wrap(PBILRO_fake_script)()
+local function QYDRJS_fake_script() -- Min.LocalScript 
 	local script = Instance.new('LocalScript', Min)
 
 	local Hub = script.Parent.Parent.Parent
@@ -1020,21 +914,15 @@ local function MMKZFX_fake_script() -- Min.LocalScript
 	local PosClosed = UDim2.new(0.368, 0,1, 1)
 	local PosOpened = UDim2.new(0.368, 0,0.359, 0)
 	local ButtonClosed = UDim2.new(0.469, 0,1, 1)
-	local ButtonOpened = UDim2.new(0.467, 0,0.956, 1)
-	local open = true
-	
+	local ButtonOpened = UDim2.new(0.915, 0,0.941, 1)
 	
 	Close.MouseButton1Click:Connect(function()
-		if open == true then
 			Hub:TweenPosition((PosClosed), "Out", "Quart")
-			wait(0.4)
 			Button.Visible = true
-			open = false
-		end
 	end)
 end
-coroutine.wrap(MMKZFX_fake_script)()
-local function KUKYTJG_fake_script() -- Page1.LocalScript 
+coroutine.wrap(QYDRJS_fake_script)()
+local function IADSL_fake_script() -- Page1.LocalScript 
 	local script = Instance.new('LocalScript', Page1)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1053,8 +941,8 @@ local function KUKYTJG_fake_script() -- Page1.LocalScript
 		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(KUKYTJG_fake_script)()
-local function XBMO_fake_script() -- Page2.LocalScript 
+coroutine.wrap(IADSL_fake_script)()
+local function ZPRWX_fake_script() -- Page2.LocalScript 
 	local script = Instance.new('LocalScript', Page2)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1073,8 +961,8 @@ local function XBMO_fake_script() -- Page2.LocalScript
 		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(XBMO_fake_script)()
-local function RHPZO_fake_script() -- Page4.LocalScript 
+coroutine.wrap(ZPRWX_fake_script)()
+local function CZVM_fake_script() -- Page4.LocalScript 
 	local script = Instance.new('LocalScript', Page4)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1093,8 +981,8 @@ local function RHPZO_fake_script() -- Page4.LocalScript
 		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(RHPZO_fake_script)()
-local function PJLF_fake_script() -- Page5.LocalScript 
+coroutine.wrap(CZVM_fake_script)()
+local function VAXL_fake_script() -- Page5.LocalScript 
 	local script = Instance.new('LocalScript', Page5)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1113,8 +1001,8 @@ local function PJLF_fake_script() -- Page5.LocalScript
 		AllTabs[5].Visible = false
 	end)
 end
-coroutine.wrap(PJLF_fake_script)()
-local function HUDBUWP_fake_script() -- Page5_2.LocalScript 
+coroutine.wrap(VAXL_fake_script)()
+local function YZXNKD_fake_script() -- Page5_2.LocalScript 
 	local script = Instance.new('LocalScript', Page5_2)
 
 	local AS = script.Parent.Parent.Parent["Admin Scripts"]
@@ -1133,8 +1021,8 @@ local function HUDBUWP_fake_script() -- Page5_2.LocalScript
 		AllTabs[5].Visible = true
 	end)
 end
-coroutine.wrap(HUDBUWP_fake_script)()
-local function DQGD_fake_script() -- Base.Dragify 
+coroutine.wrap(YZXNKD_fake_script)()
+local function KFFNLIV_fake_script() -- Base.Dragify 
 	local script = Instance.new('LocalScript', Base)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1170,8 +1058,8 @@ local function DQGD_fake_script() -- Base.Dragify
 		end
 	end)
 end
-coroutine.wrap(DQGD_fake_script)()
-local function UHGGCA_fake_script() -- MinButton.LocalScript 
+coroutine.wrap(KFFNLIV_fake_script)()
+local function OSKCJ_fake_script() -- MinButton.LocalScript 
 	local script = Instance.new('LocalScript', MinButton)
 
 	local Hub = script.Parent.Parent.Base
@@ -1179,61 +1067,14 @@ local function UHGGCA_fake_script() -- MinButton.LocalScript
 	local PosClosed = UDim2.new(0.368, 0,1, 1)
 	local PosOpened = UDim2.new(0.368, 0,0.359, 0)
 	local ButtonClosed = UDim2.new(0.469, 0,1, 1)
-	local ButtonOpened = UDim2.new(0.467, 0,0.956, 1)
+	local ButtonOpened = UDim2.new(0.915, 0,0.941, 1)
 	local open = false
 	
 	
 	Button.MouseButton1Click:Connect(function()
-		if open == false then
 			Hub:TweenPosition((PosOpened), "In", "Quart")
 			wait(0.7)
 			Button.Visible = false
-			open = true
-		end
 	end)
 end
-coroutine.wrap(UHGGCA_fake_script)()
-local function PMVZLTW_fake_script() -- MinButton.Dragify 
-	local script = Instance.new('LocalScript', MinButton)
-
-	local UserInputService = game:GetService("UserInputService")
-	
-	local gui = script.Parent
-	
-	local dragging
-	local dragInput
-	local dragStart
-	local startPos
-	
-	local function update(input)
-		local delta = input.Position - dragStart
-		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-	end
-	
-	gui.InputBegan:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
-			dragging = true
-			dragStart = input.Position
-			startPos = gui.Position
-	
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragging = false
-				end
-			end)
-		end
-	end)
-	
-	gui.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			dragInput = input
-		end
-	end)
-	
-	UserInputService.InputChanged:Connect(function(input)
-		if input == dragInput and dragging then
-			update(input)
-		end
-	end)
-end
-coroutine.wrap(PMVZLTW_fake_script)()
+coroutine.wrap(OSKCJ_fake_script)()
